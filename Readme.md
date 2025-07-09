@@ -2,7 +2,7 @@
 
 **Kendali Uang** adalah aplikasi manajemen keuangan pribadi berbasis web yang memudahkan pengguna untuk mencatat pemasukan, pengeluaran, serta memantau saldo setiap rekening secara efisien.
 
-![screenshot](preview.png)
+![screenshot](assets/img/ss.png)
 
 ---
 
