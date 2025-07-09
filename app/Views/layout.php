@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="<?= base_url() ?>/assets/plugins/datatables.net-bs5/css/dataTables.bootstrap5.min.css">
     <link rel="stylesheet" href="<?= base_url() ?>/assets/plugins/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css">
     <link rel="stylesheet" href="<?= base_url() ?>/assets/plugins/datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/assets/plugins/flatpickr/dist/css/flatpickr.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/plugins/flatpickr/css/flatpickr.min.css">
     <link rel="stylesheet" href="<?= base_url() ?>/assets/css/mycss.css">
     <!-- jquery -->
     <script src="<?= base_url() ?>/assets/plugins/jquery/jquery.min.js"></script>
@@ -141,7 +141,7 @@
     <script src="<?= base_url() ?>/assets/plugins/datatables.net-buttons/js/buttons.html5.min.js"></script>
     <script src="<?= base_url() ?>/assets/plugins/datatables.net-buttons/js/buttons.print.min.js"></script>
     <script src="<?= base_url() ?>/assets/plugins/jszip/dist/jszip.min.js"></script>
-    <script src="<?= base_url() ?>/assets/plugins/flatpickr/dist/js/flatpickr.min.js"></script>
+    <script src="<?= base_url() ?>/assets/plugins/flatpickr/js/flatpickr.min.js"></script>
     <script src="<?= base_url() ?>/assets/plugins/autoNumeric/autoNumeric-2.0.js"></script>
     <script src="<?= base_url() ?>/assets/plugins/chart.js/dist/chart.min.js"></script>
     <script>
