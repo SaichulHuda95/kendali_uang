@@ -10,9 +10,14 @@ class Home extends BaseController
             return redirect()->to('/login');
         }
 
+        $id_user = session()->get('id_user');
+        $query = "SELECT COUNT(id_pemasukan) as total FROM kat_pemasukan WHERE id_user = $id_user";
+        $result = $this->get_model->get_data_row($query);
+
 
         $data = [
-            'title' => 'Home | Kendali Uang'
+            'title' => 'Home | Kendali Uang',
+            'notif' => $result
         ];
         return view('home/index', $data);
     }

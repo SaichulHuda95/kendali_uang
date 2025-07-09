@@ -1,6 +1,12 @@
 <?= $this->extend('layout'); ?>
 <?= $this->section('content'); ?>
 
+<?php if ($notif->total < 1) : ?>
+    <div class="alert alert-danger border" role="alert">
+        Silakan buka menu <strong>Pengaturan Aplikasi</strong> untuk menambahkan kategori pemasukan, kategori pengeluaran, kategori rekening terlebih dahulu.
+    </div>
+<?php endif ?>
+
 <div class="row mb-3">
     <div class="col">
         <h3 class="text-title">Dashboard</h3>
