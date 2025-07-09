@@ -1,0 +1,15 @@
+CRITICAL - 2021-10-06 01:38:42 --> Class 'App\Controllers\Modelpotensiparkir' not found
+#0 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(908): App\Controllers\Parkir->__construct()
+#1 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-06 23:02:53 --> Undefined property: App\Controllers\Abt::$hiburan
+#0 E:\adon\Application\Epotensi-Batu\app\Controllers\Abt.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\adon\\Applica...', 142, Array)
+#1 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Abt->pendataan('1')
+#2 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Abt))
+#3 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#6 {main}

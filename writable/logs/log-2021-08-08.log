@@ -1,0 +1,68 @@
+CRITICAL - 2021-08-08 21:37:08 --> Undefined variable: datahotel
+#0 E:\titip\Application\ci4-pos\app\Views\hotel\formpendataan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\titip\\Applic...', 23, Array)
+#1 E:\titip\Application\ci4-pos\system\View\View.php(220): include('E:\\titip\\Applic...')
+#2 E:\titip\Application\ci4-pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\titip\Application\ci4-pos\system\Common.php(1217): CodeIgniter\View\View->render('hotel/formpenda...', Array, true)
+#4 E:\titip\Application\ci4-pos\app\Controllers\Hotel.php(147): view('hotel/formpenda...')
+#5 E:\titip\Application\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('13')
+#6 E:\titip\Application\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\titip\Application\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\titip\Application\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\titip\Application\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('E:\\titip\\Applic...')
+#10 {main}
+CRITICAL - 2021-08-08 23:37:40 --> Call to undefined method App\Models\Modelpotensihotel::simpanpendataan
+#0 E:\titip\Application\ci4-pos\app\Controllers\Hotel.php(216): CodeIgniter\Model->__call('simpanpendataan', Array)
+#1 E:\titip\Application\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataan()
+#2 E:\titip\Application\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 E:\titip\Application\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\titip\Application\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\titip\Application\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('E:\\titip\\Applic...')
+#6 {main}
+CRITICAL - 2021-08-08 23:39:22 --> Call to undefined method App\Models\Modelpotensihotel::simpanpendataan
+#0 E:\titip\Application\ci4-pos\app\Controllers\Hotel.php(217): CodeIgniter\Model->__call('simpanpendataan', Array)
+#1 E:\titip\Application\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataan()
+#2 E:\titip\Application\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 E:\titip\Application\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\titip\Application\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\titip\Application\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('E:\\titip\\Applic...')
+#6 {main}
+CRITICAL - 2021-08-08 23:42:26 --> Undefined property: App\Controllers\Hotel::$Modelpotensihotel
+#0 E:\titip\Application\ci4-pos\app\Controllers\Hotel.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\titip\\Applic...', 199, Array)
+#1 E:\titip\Application\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataan()
+#2 E:\titip\Application\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 E:\titip\Application\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\titip\Application\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\titip\Application\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('E:\\titip\\Applic...')
+#6 {main}
+CRITICAL - 2021-08-08 23:43:23 --> Undefined property: App\Controllers\Hotel::$Modelpotensihotel
+#0 E:\titip\Application\ci4-pos\app\Controllers\Hotel.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\titip\\Applic...', 199, Array)
+#1 E:\titip\Application\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataan()
+#2 E:\titip\Application\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 E:\titip\Application\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\titip\Application\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\titip\Application\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('E:\\titip\\Applic...')
+#6 {main}
+CRITICAL - 2021-08-08 23:45:10 --> Call to undefined method App\Models\Modelpotensihotel::simpanpendataan
+#0 E:\titip\Application\ci4-pos\app\Controllers\Hotel.php(217): CodeIgniter\Model->__call('simpanpendataan', Array)
+#1 E:\titip\Application\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataan()
+#2 E:\titip\Application\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 E:\titip\Application\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\titip\Application\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\titip\Application\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('E:\\titip\\Applic...')
+#6 {main}
+CRITICAL - 2021-08-08 23:50:42 --> Call to undefined method App\Models\Modelpotensihotel::simpanpendataan
+#0 E:\titip\Application\ci4-pos\app\Controllers\Hotel.php(217): CodeIgniter\Model->__call('simpanpendataan', Array)
+#1 E:\titip\Application\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataan()
+#2 E:\titip\Application\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 E:\titip\Application\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\titip\Application\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\titip\Application\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('E:\\titip\\Applic...')
+#6 {main}
+CRITICAL - 2021-08-08 23:55:52 --> Call to undefined method App\Models\Modelpotensihotel::simpanpendataan
+#0 E:\titip\Application\ci4-pos\app\Controllers\Hotel.php(217): CodeIgniter\Model->__call('simpanpendataan', Array)
+#1 E:\titip\Application\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataan()
+#2 E:\titip\Application\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 E:\titip\Application\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\titip\Application\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\titip\Application\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('E:\\titip\\Applic...')
+#6 {main}

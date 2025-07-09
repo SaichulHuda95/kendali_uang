@@ -1,0 +1,112 @@
+CRITICAL - 2021-11-25 10:35:05 --> Illegal string offset 'jenis_kamar'
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\formpendataan.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/for...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(184): view('hotel/admin/for...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataanadmin('1')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 10:37:52 --> Illegal string offset 'jenis_kamar'
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\formpendataan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/for...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(184): view('hotel/admin/for...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataanadmin('1')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 10:37:53 --> Illegal string offset 'jenis_kamar'
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\formpendataan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/for...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(184): view('hotel/admin/for...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataanadmin('1')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 00:13:48 --> Argument 1 passed to CodeIgniter\Validation\FormatRules::integer() must be of the type string or null, array given, called in C:\xampp\htdocs\e-potensi\system\Validation\Validation.php on line 306
+#0 C:\xampp\htdocs\e-potensi\system\Validation\Validation.php(306): CodeIgniter\Validation\FormatRules->integer(Array, NULL)
+#1 C:\xampp\htdocs\e-potensi\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('tarif_kamar', 'tarif_kamar', Array, Array, Array)
+#2 C:\xampp\htdocs\e-potensi\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(205): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 09:11:03 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in C:\xampp\htdocs\e-potensi\system\Model.php on line 275
+#0 C:\xampp\htdocs\e-potensi\system\Model.php(275): CodeIgniter\Database\BaseBuilder->set('golongan_kamar', Array, NULL)
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(245): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 09:12:40 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in C:\xampp\htdocs\e-potensi\system\Model.php on line 275
+#0 C:\xampp\htdocs\e-potensi\system\Model.php(275): CodeIgniter\Database\BaseBuilder->set('golongan_kamar', Array, NULL)
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(245): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 09:16:41 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in C:\xampp\htdocs\e-potensi\system\Model.php on line 275
+#0 C:\xampp\htdocs\e-potensi\system\Model.php(275): CodeIgniter\Database\BaseBuilder->set('golongan_kamar', Array, NULL)
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(245): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-25 09:37:50 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, string given, called in C:\xampp\htdocs\e-potensi\system\BaseModel.php on line 826
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(826): CodeIgniter\BaseModel->doProtectFields('Superior Room')
+#1 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(247): CodeIgniter\BaseModel->insertBatch(Array)
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-25 09:39:11 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, string given, called in C:\xampp\htdocs\e-potensi\system\BaseModel.php on line 826
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(826): CodeIgniter\BaseModel->doProtectFields('Superior Room')
+#1 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(247): CodeIgniter\BaseModel->insertBatch(Array)
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-11-25 09:52:57 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `po...')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(2107): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(251): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 09:52:57 --> Operand should contain 1 column(s)
+#0 C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `po...')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(2107): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(251): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

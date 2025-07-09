@@ -1,0 +1,6 @@
+CRITICAL - 2021-11-27 02:27:11 --> Call to a member function insertBatch() on null
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Abt->simpanpendataanadmin()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Abt))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,581 @@
+CRITICAL - 2021-10-31 17:50:43 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 17:51:36 --> syntax error, unexpected ';', expecting ')'
+#0 E:\adon\Application\Website\Epotensi-Batu\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('hotel/index/283...')
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('hotel/index/283...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#6 {main}
+CRITICAL - 2021-10-31 17:52:03 --> syntax error, unexpected ';', expecting ')'
+#0 E:\adon\Application\Website\Epotensi-Batu\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('hotel/index/283...')
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('hotel/index/283...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#6 {main}
+CRITICAL - 2021-10-31 17:52:38 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/potensi', Array, true)
+#3 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(268): view('hotel/potensi', Array)
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensi('28363gdjsda')
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#9 {main}
+CRITICAL - 2021-10-31 17:57:18 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/potensi', Array, true)
+#3 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(268): view('hotel/potensi', Array)
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensi('28363gdjsda')
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#9 {main}
+CRITICAL - 2021-10-31 18:08:08 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 18:08:39 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 18:10:04 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 18:10:52 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 18:11:09 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 18:11:36 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 18:11:43 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 18:12:45 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 18:16:53 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 18:17:08 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 18:19:39 --> Invalid file: hotel/data28363gdjsda.php
+#0 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hotel/data28363...')
+#1 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/data28363...', Array, true)
+#2 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(23): view('hotel/data28363...')
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index('28363gdjsda')
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#8 {main}
+CRITICAL - 2021-10-31 18:20:07 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 18:20:31 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 18:20:51 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 18:21:15 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 18:51:44 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 19:19:10 --> Too few arguments to function App\Controllers\Hotel::index(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 19:33:17 --> Undefined variable: mardika
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Models\Modelhotel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 16, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(31): App\Models\Modelhotel->search('mardika')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index('28363gdjsda')
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#7 {main}
+CRITICAL - 2021-10-31 19:33:37 --> Undefined variable: mardika
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Models\Modelhotel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 16, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(31): App\Models\Modelhotel->search('mardika')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index('28363gdjsda')
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#7 {main}
+CRITICAL - 2021-10-31 19:37:30 --> Undefined variable: user
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 39, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index('28363gdjsda')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#6 {main}
+CRITICAL - 2021-10-31 19:41:24 --> Undefined variable: user
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\data.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 87, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/data', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(44): view('hotel/data', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index('jhfuhd83634')
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 19:57:21 --> Undefined variable: user
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\data.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 100, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/data', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(50): view('hotel/data', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index('jhfuhd83634')
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 19:59:25 --> Undefined variable: user
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\data.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 100, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/data', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(50): view('hotel/data', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index('jhfuhd83634')
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 20:02:27 --> Undefined variable: user
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 45, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index('28363gdjsda')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#6 {main}
+CRITICAL - 2021-10-31 20:05:29 --> Undefined variable: admin
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 40, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index('jhfuhd83634')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#6 {main}
+CRITICAL - 2021-10-31 20:10:16 --> Object of class App\Models\Modelhotel could not be converted to string
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index('jhfuhd83634')
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 20:11:25 --> Undefined variable: admin
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\data.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 59, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/data', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(45): view('hotel/data', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index('28363gdjsda')
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 20:31:33 --> Undefined variable: user
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\data.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 87, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/data', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(44): view('hotel/data', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->index('jhfuhd83634')
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 20:44:18 --> Too few arguments to function App\Controllers\Hotel::potensi(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensi()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-31 21:46:56 --> Invalid file: hotel/modalformedit.php
+#0 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hotel/modalform...')
+#1 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/modalform...', Array, true)
+#2 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(127): view('hotel/modalform...', Array)
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->formEdit()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#8 {main}
+CRITICAL - 2021-10-31 21:47:26 --> Invalid file: hotel/modalformedit.php
+#0 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hotel/modalform...')
+#1 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/modalform...', Array, true)
+#2 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(127): view('hotel/modalform...', Array)
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->formEdit()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#8 {main}
+CRITICAL - 2021-10-31 22:14:18 --> Undefined variable: row
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\potensi.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 79, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(366): view('hotel/admin/pot...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 22:15:49 --> Undefined variable: row
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\potensi.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 78, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(366): view('hotel/admin/pot...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 22:16:02 --> Undefined variable: row
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\potensi.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 78, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(366): view('hotel/admin/pot...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 22:16:20 --> Undefined variable: row
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\potensi.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 81, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(366): view('hotel/admin/pot...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 22:33:35 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#3 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(366): view('hotel/admin/pot...', Array)
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#9 {main}
+CRITICAL - 2021-10-31 22:50:56 --> Array to string conversion
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\potensi.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\adon\\Applica...', 77, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(367): view('hotel/admin/pot...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 22:53:57 --> Undefined variable: total
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\potensi.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 77, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(367): view('hotel/admin/pot...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 22:54:10 --> Array to string conversion
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\potensi.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\adon\\Applica...', 77, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(367): view('hotel/admin/pot...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 22:54:50 --> Array to string conversion
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\potensi.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\adon\\Applica...', 78, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(367): view('hotel/admin/pot...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 22:55:08 --> Undefined index: potensi_tahun
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\potensi.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\adon\\Applica...', 78, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(367): view('hotel/admin/pot...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 22:56:14 --> Undefined index: potensi_tahun
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\potensi.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\adon\\Applica...', 78, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(368): view('hotel/admin/pot...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 23:00:30 --> Array to string conversion
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\potensi.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\adon\\Applica...', 78, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(367): view('hotel/admin/pot...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 23:02:01 --> Array to string conversion
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\potensi.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\adon\\Applica...', 78, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(368): view('hotel/admin/pot...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-31 23:08:08 --> Cannot use object of type stdClass as array
+#0 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#3 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(368): view('hotel/admin/pot...', Array)
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#9 {main}
+CRITICAL - 2021-10-31 23:08:25 --> Cannot use object of type stdClass as array
+#0 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#3 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(368): view('hotel/admin/pot...', Array)
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#9 {main}
+CRITICAL - 2021-10-31 23:14:53 --> Undefined property: stdClass::$potensi_tahun
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\potensi.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\adon\\Applica...', 80, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(368): view('hotel/admin/pot...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+ERROR - 2021-10-31 23:17:49 --> mysqli_sql_exception: Unknown column 'potensi_tahunpotensi_bulan' in 'field list' in E:\adon\Application\Website\Epotensi-Batu\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\adon\Application\Website\Epotensi-Batu\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT SUM(`pot...')
+#1 E:\adon\Application\Website\Epotensi-Batu\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`pot...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`pot...')
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`pot...', Array, false)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Models\Modelpotensihotel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(356): App\Models\Modelpotensihotel->get_sum()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#8 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#11 {main}
+CRITICAL - 2021-10-31 23:17:49 --> Unknown column 'potensi_tahunpotensi_bulan' in 'field list'
+#0 E:\adon\Application\Website\Epotensi-Batu\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT SUM(`pot...')
+#1 E:\adon\Application\Website\Epotensi-Batu\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`pot...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`pot...')
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`pot...', Array, false)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Models\Modelpotensihotel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(356): App\Models\Modelpotensihotel->get_sum()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#8 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#11 {main}
+CRITICAL - 2021-10-31 23:18:08 --> Undefined property: stdClass::$potensi_tahun
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\potensi.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\adon\\Applica...', 80, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/pot...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(368): view('hotel/admin/pot...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+ERROR - 2021-10-31 23:18:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `potensi_hotel`' at line 1 in E:\adon\Application\Website\Epotensi-Batu\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\adon\Application\Website\Epotensi-Batu\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT SUM(1) A...')
+#1 E:\adon\Application\Website\Epotensi-Batu\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(1) A...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(1) A...')
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT SUM(1) A...', Array, false)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Models\Modelpotensihotel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(356): App\Models\Modelpotensihotel->get_sum()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#8 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#11 {main}
+CRITICAL - 2021-10-31 23:18:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+FROM `potensi_hotel`' at line 1
+#0 E:\adon\Application\Website\Epotensi-Batu\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT SUM(1) A...')
+#1 E:\adon\Application\Website\Epotensi-Batu\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(1) A...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(1) A...')
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT SUM(1) A...', Array, false)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Models\Modelpotensihotel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(356): App\Models\Modelpotensihotel->get_sum()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiadmin()
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#8 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#11 {main}
+CRITICAL - 2021-10-31 23:35:25 --> Too few arguments to function App\Models\Modelpotensihotel::getNpwpd(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php on line 379 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(379): App\Models\Modelpotensihotel->getNpwpd()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiuser('jhfuhd83634')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#6 {main}
+CRITICAL - 2021-10-31 23:39:30 --> array_sum() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_sum() exp...', 'E:\\adon\\Applica...', 80, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\user\potensi.php(80): array_sum('3620700000')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#3 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/user/pote...', Array, true)
+#5 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(390): view('hotel/user/pote...', Array)
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->potensiuser('jhfuhd83634')
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#8 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#11 {main}

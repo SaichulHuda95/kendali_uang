@@ -1,0 +1,364 @@
+ERROR - 2022-02-08 20:50:13 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-08 20:50:13 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(836): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(113): CodeIgniter\Model->__call('getWhere', Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-08 21:14:39 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-08 21:14:39 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(836): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(113): CodeIgniter\Model->__call('getWhere', Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 21:52:59 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 21:53:24 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 21:53:25 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 21:57:51 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 21:57:52 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:00:12 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:03:10 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:03:11 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:10:06 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:14:06 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:15:18 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:22:42 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:22:42 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:22:43 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:22:43 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:22:44 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:22:44 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:22:44 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:22:44 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:22:44 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:22:44 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:22:44 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:25:19 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:36:35 --> Class 'CodeIgniter\Database\pdo\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:36:37 --> Class 'CodeIgniter\Database\pdo\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:47:36 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:47:51 --> Class 'CodeIgniter\Database\pdo\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:49:04 --> Class 'CodeIgniter\Database\Oracle\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('Oracle', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:50:36 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:57:55 --> Class 'CodeIgniter\Database\oci8\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 22:59:37 --> Class 'CodeIgniter\Database\oci8_12c\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('oci8_12c', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-08 23:01:28 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2022-02-08 23:01:28 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(836): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(113): CodeIgniter\Model->__call('getWhere', Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 23:02:17 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#2 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 23:02:27 --> Class 'CodeIgniter\Database\PR\Connection' not found
+#0 C:\xampp\htdocs\e-potensi\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('PR', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(111): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Auth.php(12): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

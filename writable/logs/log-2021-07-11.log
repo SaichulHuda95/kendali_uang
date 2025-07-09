@@ -1,0 +1,66 @@
+CRITICAL - 2021-07-11 21:26:56 --> Invalid file: hiburan/data.php
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hiburan/data.ph...')
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Common.php(1217): CodeIgniter\View\View->render('hiburan/data', Array, true)
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hiburan.php(33): view('hiburan/data', Array)
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hiburan->index()
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hiburan))
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#8 {main}
+CRITICAL - 2021-07-11 21:27:14 --> Invalid file: hiburan/data.php
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hiburan/data.ph...')
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Common.php(1217): CodeIgniter\View\View->render('hiburan/data', Array, true)
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hiburan.php(33): view('hiburan/data', Array)
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hiburan->index()
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hiburan))
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#8 {main}
+CRITICAL - 2021-07-11 21:27:48 --> Invalid file: hiburan/data.php
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hiburan/data.ph...')
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Common.php(1217): CodeIgniter\View\View->render('hiburan/data', Array, true)
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hiburan.php(33): view('hiburan/data', Array)
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hiburan->index()
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hiburan))
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#8 {main}
+CRITICAL - 2021-07-11 21:30:54 --> Undefined variable: datareklame
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Views\hiburan\data.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 46, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(220): include('C:\\Users\\dbi\\Do...')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Common.php(1217): CodeIgniter\View\View->render('hiburan/data', Array, true)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hiburan.php(33): view('hiburan/data', Array)
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hiburan->index()
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hiburan))
+#7 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#10 {main}
+CRITICAL - 2021-07-11 21:30:56 --> Undefined variable: datareklame
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Views\hiburan\data.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 46, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(220): include('C:\\Users\\dbi\\Do...')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Common.php(1217): CodeIgniter\View\View->render('hiburan/data', Array, true)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hiburan.php(33): view('hiburan/data', Array)
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hiburan->index()
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hiburan))
+#7 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#10 {main}
+CRITICAL - 2021-07-11 21:31:05 --> Undefined variable: datareklame
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Views\hiburan\data.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 46, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(220): include('C:\\Users\\dbi\\Do...')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Common.php(1217): CodeIgniter\View\View->render('hiburan/data', Array, true)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hiburan.php(33): view('hiburan/data', Array)
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hiburan->index()
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hiburan))
+#7 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#10 {main}

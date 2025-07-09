@@ -1,0 +1,352 @@
+CRITICAL - 2021-11-18 08:59:53 --> Call to undefined function user()
+#0 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/user/edit...', Array, true)
+#3 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(495): view('hotel/user/edit...', Array)
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiuser('16')
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#9 {main}
+CRITICAL - 2021-11-18 00:08:59 --> Too few arguments to function App\Controllers\Restoran::datauser(), 0 passed in C:\xampp\htdocs\e-potensi\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->datauser()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-18 00:09:19 --> Too few arguments to function App\Controllers\Restoran::datauser(), 0 passed in C:\xampp\htdocs\e-potensi\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->datauser()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-18 00:09:28 --> Too few arguments to function App\Controllers\Hiburan::datauser(), 0 passed in C:\xampp\htdocs\e-potensi\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hiburan->datauser()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hiburan))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-18 00:09:54 --> Too few arguments to function App\Controllers\Abt::datauser(), 0 passed in C:\xampp\htdocs\e-potensi\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Abt->datauser()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Abt))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-18 00:12:03 --> Too few arguments to function App\Controllers\Restoran::datauser(), 0 passed in C:\xampp\htdocs\e-potensi\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->datauser()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-18 00:12:30 --> Too few arguments to function App\Controllers\Restoran::datauser(), 0 passed in C:\xampp\htdocs\e-potensi\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->datauser()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-18 00:12:30 --> Too few arguments to function App\Controllers\Restoran::datauser(), 0 passed in C:\xampp\htdocs\e-potensi\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->datauser()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-18 00:12:58 --> Too few arguments to function App\Controllers\Restoran::datauser(), 0 passed in C:\xampp\htdocs\e-potensi\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->datauser()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-18 00:18:52 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('hotel/formEdit', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 01:44:50 --> Call to undefined function user()
+#0 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('restoran/user/d...', Array, true)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(59): view('restoran/user/d...', Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->datauser()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-18 01:56:25 --> Illegal string offset 'tanggal'
+#0 C:\xampp\htdocs\e-potensi\app\Views\restoran\user\potensi.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('restoran/user/p...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(395): view('restoran/user/p...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->potensiuser()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-18 01:57:09 --> Illegal string offset 'tanggal'
+#0 C:\xampp\htdocs\e-potensi\app\Views\restoran\user\potensi.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('restoran/user/p...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(395): view('restoran/user/p...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->potensiuser()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-18 01:59:12 --> Illegal string offset 'tanggal'
+#0 C:\xampp\htdocs\e-potensi\app\Views\restoran\user\potensi.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('restoran/user/p...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(395): view('restoran/user/p...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->potensiuser()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-18 01:59:58 --> Illegal string offset 'tanggal'
+#0 C:\xampp\htdocs\e-potensi\app\Views\restoran\user\potensi.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('restoran/user/p...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(396): view('restoran/user/p...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->potensiuser()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-18 02:00:07 --> Illegal string offset 'tanggal'
+#0 C:\xampp\htdocs\e-potensi\app\Views\restoran\user\potensi.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('restoran/user/p...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(396): view('restoran/user/p...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->potensiuser()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-18 02:01:09 --> Illegal string offset 'tanggal'
+#0 C:\xampp\htdocs\e-potensi\app\Views\restoran\user\potensi.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('restoran/user/p...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(395): view('restoran/user/p...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->potensiuser()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-18 02:01:10 --> Illegal string offset 'tanggal'
+#0 C:\xampp\htdocs\e-potensi\app\Views\restoran\user\potensi.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('restoran/user/p...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(395): view('restoran/user/p...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->potensiuser()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-18 03:44:00 --> Too few arguments to function App\Controllers\Hiburan::datauser(), 0 passed in C:\xampp\htdocs\e-potensi\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hiburan->datauser()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hiburan))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-18 03:44:07 --> Illegal string offset 'tanggal'
+#0 C:\xampp\htdocs\e-potensi\app\Views\restoran\user\potensi.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('restoran/user/p...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(395): view('restoran/user/p...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->potensiuser()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-18 03:44:11 --> Illegal string offset 'tanggal'
+#0 C:\xampp\htdocs\e-potensi\app\Views\restoran\user\potensi.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('restoran/user/p...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(395): view('restoran/user/p...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->potensiuser()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-18 19:52:23 --> Too few arguments to function App\Controllers\Pj::datauser(), 0 passed in C:\xampp\htdocs\e-potensi\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Pj->datauser()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pj))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-18 21:35:20 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('reklame/admin/m...', Array, true)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Reklame.php(69): view('reklame/admin/m...')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Reklame->formTambah()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reklame))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-18 21:39:31 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pj/formEdit', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 21:39:35 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('pj/admin/modalf...', Array, true)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Pj.php(67): view('pj/admin/modalf...')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Pj->formTambah()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pj))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-18 22:00:17 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('hotel/formEdit', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 22:07:42 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('hotel/formEdit', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 22:11:03 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('hotel/formEdit', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 22:16:33 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('hotel/formEdit', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 22:23:02 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('hotel/formEdit', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 22:23:02 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('hotel/formEdit', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 22:27:39 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('hotel/formEdit', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 22:45:40 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('hotel/formEdit', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 22:47:55 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('hotel/formEdit', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 22:51:33 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('hotel/formEdit', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 22:52:45 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('hotel/formEdit', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 22:53:41 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('hotel/formEdit', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 22:56:17 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\e-potensi\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\e-potensi\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\e-potensi\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('hotel/hapus', 'before')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-18 22:58:06 --> Call to a member function insert() on null
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpandata()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-18 23:16:51 --> Call to undefined function http://localhost/e-potensi/public()
+#0 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/mod...', Array, true)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(68): view('hotel/admin/mod...')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->formTambah()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-18 23:17:21 --> Call to undefined function http://localhost/e-potensi/public()
+#0 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/mod...', Array, true)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(68): view('hotel/admin/mod...')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->formTambah()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-18 23:23:09 --> Call to a member function insert() on null
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpandata()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

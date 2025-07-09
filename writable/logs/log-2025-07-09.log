@@ -1,0 +1,93 @@
+CRITICAL - 2025-07-09 01:06:28 --> Cannot use object of type stdClass as array
+#0 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Home->get_chart_data()
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2025-07-09 01:20:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND waktu_transaksi >= DATE_SUB(CURDATE(), INTERVAL 6 MONTH)
+            GROUP B' at line 8 in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT \n       ...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n       ...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n       ...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT \n       ...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Home.php(83): App\Models\get_model->get_data_array('SELECT \n       ...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Home->get_chart_data()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-09 01:20:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY 
+                r.id_rekening, r.nama_rekening' at line 14 in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT \n       ...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n       ...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n       ...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT \n       ...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Home.php(38): App\Models\get_model->get_data_array('SELECT \n       ...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Home->get_saldo_rekening()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-09 01:23:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND MONTH(waktu_transaksi) = '07' AND YEAR(waktu_transaksi) = '2025'' at line 5 in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT \n       ...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n       ...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n       ...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(19): CodeIgniter\Database\BaseConnection->query('SELECT \n       ...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Home.php(59): App\Models\get_model->get_data_row('SELECT \n       ...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Home->get_rekap_bulan_ini()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-09 01:23:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY 
+                r.id_rekening, r.nama_rekening' at line 14 in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT \n       ...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n       ...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n       ...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT \n       ...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Home.php(38): App\Models\get_model->get_data_array('SELECT \n       ...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Home->get_saldo_rekening()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-09 01:31:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND waktu_transaksi >= DATE_SUB(CURDATE(), INTERVAL 6 MONTH)
+            GROUP B' at line 8 in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT \n       ...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n       ...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n       ...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT \n       ...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Home.php(83): App\Models\get_model->get_data_array('SELECT \n       ...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Home->get_chart_data()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-09 01:31:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY 
+                r.id_rekening, r.nama_rekening' at line 14 in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT \n       ...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n       ...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n       ...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT \n       ...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Home.php(38): App\Models\get_model->get_data_array('SELECT \n       ...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Home->get_saldo_rekening()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-09 13:34:39 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2025-07-09 13:34:39 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(599): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/kendali_uang/app/Models/auth_model.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#2 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Login.php(42): App\Models\auth_model->get_user('developer')
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Login->login()
+#4 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}

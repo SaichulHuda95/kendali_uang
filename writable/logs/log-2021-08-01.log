@@ -1,0 +1,56 @@
+CRITICAL - 2021-08-01 20:47:16 --> Undefined variable: id
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 144, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('1')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-08-01 20:49:41 --> Undefined variable: id
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 144, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('1')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-08-01 20:50:21 --> Undefined variable: id
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 144, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('4')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-08-01 20:52:54 --> Undefined variable: id
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 144, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('1')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-08-01 20:53:35 --> Undefined variable: id
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 144, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('1')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-08-01 20:53:41 --> Undefined variable: id
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 144, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('1')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-08-01 20:54:44 --> Undefined variable: id
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 144, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('11')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}

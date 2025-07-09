@@ -1,0 +1,198 @@
+CRITICAL - 2021-11-22 00:15:42 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\e-potensi\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('pengaturan/user')
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('pengaturan/user')
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-22 09:36:17 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, string given, called in C:\xampp\htdocs\e-potensi\system\Model.php on line 836
+#0 C:\xampp\htdocs\e-potensi\system\Model.php(836): CodeIgniter\Database\BaseBuilder->getWhere('email', 'saichulhuda1995...')
+#1 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(62): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-22 09:46:52 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(719): CodeIgniter\BaseModel->transformDataToArray('saichulhuda1995...', 'insert')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(705): CodeIgniter\BaseModel->insert('saichulhuda1995...', false)
+#2 C:\xampp\htdocs\e-potensi\system\BaseModel.php(667): CodeIgniter\Model->insert('saichulhuda1995...', false)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(62): CodeIgniter\BaseModel->save('saichulhuda1995...', Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-22 09:51:50 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(63): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-22 09:55:25 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(62): CodeIgniter\Model->update('saichulhuda1995...', Array)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-22 09:59:29 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, string given, called in C:\xampp\htdocs\e-potensi\system\Model.php on line 836
+#0 C:\xampp\htdocs\e-potensi\system\Model.php(836): CodeIgniter\Database\BaseBuilder->getWhere('email', 'saichulhuda1995...')
+#1 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(62): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-22 10:04:44 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(62): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-22 10:12:22 --> Object of class App\Models\Modeluser could not be converted to string
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-22 10:19:17 --> Too few arguments to function App\Models\Modeluser::updateprofil(), 0 passed in C:\xampp\htdocs\e-potensi\app\Controllers\User.php on line 66 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(66): App\Models\Modeluser->updateprofil()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-22 10:21:40 --> Call to a member function update() on array
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-22 10:21:53 --> Call to a member function update() on array
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-22 10:25:04 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\e-potensi\app\Views\layout\user.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('layout/user', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(70): view('layout/user')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-22 10:30:17 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(66): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-22 10:34:53 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(64): CodeIgniter\Model->update('saichulhuda1995...', Array)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-22 10:36:31 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(719): CodeIgniter\BaseModel->transformDataToArray('saichulhuda1995...', 'insert')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(705): CodeIgniter\BaseModel->insert('saichulhuda1995...', false)
+#2 C:\xampp\htdocs\e-potensi\system\BaseModel.php(667): CodeIgniter\Model->insert('saichulhuda1995...', false)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(64): CodeIgniter\BaseModel->save('saichulhuda1995...', Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-22 10:37:00 --> Argument 1 passed to CodeIgniter\BaseModel::replace() must be of the type array or null, string given, called in C:\xampp\htdocs\e-potensi\app\Controllers\User.php on line 64
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(64): CodeIgniter\BaseModel->replace('saichulhuda1995...', Array)
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-22 10:41:11 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, string given, called in C:\xampp\htdocs\e-potensi\system\Model.php on line 836
+#0 C:\xampp\htdocs\e-potensi\system\Model.php(836): CodeIgniter\Database\BaseBuilder->getWhere('email', 'saichulhuda1995...')
+#1 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(64): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-22 10:41:44 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(66): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-22 10:54:30 --> Argument 2 passed to CodeIgniter\BaseModel::replace() must be of the type bool, array given, called in C:\xampp\htdocs\e-potensi\app\Controllers\User.php on line 62
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(62): CodeIgniter\BaseModel->replace(Array, Array)
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-22 11:10:09 --> Argument 2 passed to CodeIgniter\Model::insert() must be of the type bool, array given, called in C:\xampp\htdocs\e-potensi\app\Controllers\User.php on line 63
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(63): CodeIgniter\Model->insert(Array, Array)
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-22 12:07:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->editprofil('2')
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-22 12:17:54 --> Too few arguments to function App\Controllers\User::editprofil(), 0 passed in C:\xampp\htdocs\e-potensi\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->editprofil()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-22 23:26:10 --> Argument 2 passed to CodeIgniter\Validation\FileRules::uploaded() must be of the type string, null given, called in C:\xampp\htdocs\e-potensi\system\Validation\Validation.php on line 306
+#0 C:\xampp\htdocs\e-potensi\system\Validation\Validation.php(306): CodeIgniter\Validation\FileRules->uploaded(NULL, NULL)
+#1 C:\xampp\htdocs\e-potensi\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('image', 'image', NULL, Array, Array)
+#2 C:\xampp\htdocs\e-potensi\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(39): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-22 23:26:16 --> Argument 2 passed to CodeIgniter\Validation\FileRules::uploaded() must be of the type string, null given, called in C:\xampp\htdocs\e-potensi\system\Validation\Validation.php on line 306
+#0 C:\xampp\htdocs\e-potensi\system\Validation\Validation.php(306): CodeIgniter\Validation\FileRules->uploaded(NULL, NULL)
+#1 C:\xampp\htdocs\e-potensi\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('image', 'image', NULL, Array, Array)
+#2 C:\xampp\htdocs\e-potensi\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\User.php(39): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\User->updateprofil()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,251 @@
+ERROR - 2021-11-19 00:27:24 --> mysqli_sql_exception: Column 'rekening_objek' cannot be null in C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `re...')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\e-potensi\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\e-potensi\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\e-potensi\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(93): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->simpandata()
+#9 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#10 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-19 00:27:24 --> Column 'rekening_objek' cannot be null
+#0 C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `re...')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\e-potensi\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\e-potensi\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\e-potensi\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(93): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->simpandata()
+#9 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#10 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-19 12:34:01 --> strpos() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expect...', 'C:\\xampp\\htdocs...', 450, Array)
+#1 C:\xampp\htdocs\e-potensi\system\Router\Router.php(450): strpos(Array, '$')
+#2 C:\xampp\htdocs\e-potensi\system\Router\Router.php(152): CodeIgniter\Router\Router->checkRoutes('hotel')
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('hotel')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-19 13:13:25 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('layout/admin', Array, true)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(34): view('layout/admin', Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-19 13:14:21 --> Object of class mysqli could not be converted to string
+#0 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('layout/admin', Array, true)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(34): view('layout/admin', Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-19 13:17:44 --> Empty statement is given for the field `Select`
+#0 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(511): CodeIgniter\Database\Exceptions\DataException::forEmptyInputGiven('Select')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(469): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('', '', 'SUM')
+#2 C:\xampp\htdocs\e-potensi\app\Models\Modelhome.php(44): CodeIgniter\Database\BaseBuilder->selectSum()
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(25): App\Models\Modelhome->pot_hotel()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-19 13:17:59 --> Empty statement is given for the field `Select`
+#0 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(511): CodeIgniter\Database\Exceptions\DataException::forEmptyInputGiven('Select')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(469): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('', '', 'SUM')
+#2 C:\xampp\htdocs\e-potensi\app\Models\Modelhome.php(44): CodeIgniter\Database\BaseBuilder->selectSum()
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(25): App\Models\Modelhome->pot_hotel()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-19 13:18:10 --> Empty statement is given for the field `Select`
+#0 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(511): CodeIgniter\Database\Exceptions\DataException::forEmptyInputGiven('Select')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(469): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('', '', 'SUM')
+#2 C:\xampp\htdocs\e-potensi\app\Models\Modelhome.php(44): CodeIgniter\Database\BaseBuilder->selectSum()
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(25): App\Models\Modelhome->pot_hotel()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-19 13:18:19 --> Empty statement is given for the field `Select`
+#0 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(511): CodeIgniter\Database\Exceptions\DataException::forEmptyInputGiven('Select')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(469): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('', '', 'SUM')
+#2 C:\xampp\htdocs\e-potensi\app\Models\Modelhome.php(44): CodeIgniter\Database\BaseBuilder->selectSum()
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(25): App\Models\Modelhome->pot_hotel()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-19 13:18:25 --> Empty statement is given for the field `Select`
+#0 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(511): CodeIgniter\Database\Exceptions\DataException::forEmptyInputGiven('Select')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(469): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('', '', 'SUM')
+#2 C:\xampp\htdocs\e-potensi\app\Models\Modelhome.php(44): CodeIgniter\Database\BaseBuilder->selectSum()
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(25): App\Models\Modelhome->pot_hotel()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-19 13:19:26 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\e-potensi\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\e-potensi\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(13): spl_autoload_call('App\\Models\\Mode...')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-19 13:19:35 --> Empty statement is given for the field `Select`
+#0 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(511): CodeIgniter\Database\Exceptions\DataException::forEmptyInputGiven('Select')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(469): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('', '', 'SUM')
+#2 C:\xampp\htdocs\e-potensi\app\Models\Modelhome.php(44): CodeIgniter\Database\BaseBuilder->selectSum()
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(25): App\Models\Modelhome->pot_hotel()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-19 13:20:36 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('layout/admin', Array, true)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(36): view('layout/admin', Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-19 13:22:03 --> Empty statement is given for the field `Select`
+#0 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(511): CodeIgniter\Database\Exceptions\DataException::forEmptyInputGiven('Select')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(469): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('', '', 'SUM')
+#2 C:\xampp\htdocs\e-potensi\app\Models\Modelhome.php(44): CodeIgniter\Database\BaseBuilder->selectSum()
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(25): App\Models\Modelhome->pot_hotel()
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-11-19 13:39:39 --> mysqli_sql_exception: Table 'epotensi_batu.mytable' doesn't exist in C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-19 13:39:39 --> Table 'epotensi_batu.mytable' doesn't exist
+#0 C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-19 13:41:21 --> mysqli_sql_exception: Unknown column 'nama' in 'field list' in C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `nama`, ...')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama`, ...')
+#2 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama`, ...')
+#3 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `nama`, ...', Array, false)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-19 13:41:21 --> Unknown column 'nama' in 'field list'
+#0 C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `nama`, ...')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama`, ...')
+#2 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama`, ...')
+#3 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `nama`, ...', Array, false)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-19 13:41:36 --> mysqli_sql_exception: Unknown column 'nama' in 'field list' in C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `nama`, ...')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama`, ...')
+#2 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama`, ...')
+#3 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `nama`, ...', Array, false)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-19 13:41:36 --> Unknown column 'nama' in 'field list'
+#0 C:\xampp\htdocs\e-potensi\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `nama`, ...')
+#1 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama`, ...')
+#2 C:\xampp\htdocs\e-potensi\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama`, ...')
+#3 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `nama`, ...', Array, false)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-19 13:45:52 --> number_format() expects parameter 1 to be float, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\e-potensi\app\Views\layout\admin.php(61): number_format(Array, 2, ',', '.')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('layout/admin', Array, true)
+#5 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(34): view('layout/admin', Array)
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-19 13:48:02 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('layout/admin', Array, true)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(34): view('layout/admin', Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-19 13:48:16 --> number_format() expects parameter 1 to be float, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\e-potensi\app\Views\layout\admin.php(62): number_format(Object(stdClass), 2, ',', '.')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('layout/admin', Array, true)
+#5 C:\xampp\htdocs\e-potensi\app\Controllers\Admin.php(34): view('layout/admin', Array)
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

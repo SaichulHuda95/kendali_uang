@@ -1,0 +1,194 @@
+ERROR - 2021-10-05 01:51:51 --> mysqli_sql_exception: Unknown column 'meja_tersedia' in 'field list' in E:\adon\Application\Epotensi-Batu\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\adon\Application\Epotensi-Batu\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `po...')
+#1 E:\adon\Application\Epotensi-Batu\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 E:\adon\Application\Epotensi-Batu\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 E:\adon\Application\Epotensi-Batu\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 E:\adon\Application\Epotensi-Batu\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\adon\Application\Epotensi-Batu\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\adon\Application\Epotensi-Batu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\adon\Application\Epotensi-Batu\app\Controllers\Restoran.php(181): CodeIgniter\Model->insert(Array)
+#8 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Restoran->simpanpendataan()
+#9 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#10 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#13 {main}
+CRITICAL - 2021-10-05 01:51:51 --> Unknown column 'meja_tersedia' in 'field list'
+#0 E:\adon\Application\Epotensi-Batu\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `po...')
+#1 E:\adon\Application\Epotensi-Batu\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 E:\adon\Application\Epotensi-Batu\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 E:\adon\Application\Epotensi-Batu\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 E:\adon\Application\Epotensi-Batu\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\adon\Application\Epotensi-Batu\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\adon\Application\Epotensi-Batu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\adon\Application\Epotensi-Batu\app\Controllers\Restoran.php(181): CodeIgniter\Model->insert(Array)
+#8 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Restoran->simpanpendataan()
+#9 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#10 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#13 {main}
+ERROR - 2021-10-05 01:54:42 --> mysqli_sql_exception: Column 'n' cannot be null in E:\adon\Application\Epotensi-Batu\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\adon\Application\Epotensi-Batu\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `po...')
+#1 E:\adon\Application\Epotensi-Batu\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 E:\adon\Application\Epotensi-Batu\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 E:\adon\Application\Epotensi-Batu\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 E:\adon\Application\Epotensi-Batu\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\adon\Application\Epotensi-Batu\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\adon\Application\Epotensi-Batu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\adon\Application\Epotensi-Batu\app\Controllers\Restoran.php(181): CodeIgniter\Model->insert(Array)
+#8 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Restoran->simpanpendataan()
+#9 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#10 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#13 {main}
+CRITICAL - 2021-10-05 01:54:42 --> Column 'n' cannot be null
+#0 E:\adon\Application\Epotensi-Batu\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `po...')
+#1 E:\adon\Application\Epotensi-Batu\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 E:\adon\Application\Epotensi-Batu\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 E:\adon\Application\Epotensi-Batu\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 E:\adon\Application\Epotensi-Batu\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\adon\Application\Epotensi-Batu\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\adon\Application\Epotensi-Batu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\adon\Application\Epotensi-Batu\app\Controllers\Restoran.php(181): CodeIgniter\Model->insert(Array)
+#8 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Restoran->simpanpendataan()
+#9 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#10 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#13 {main}
+ERROR - 2021-10-05 01:55:13 --> mysqli_sql_exception: Unknown column 'n' in 'field list' in E:\adon\Application\Epotensi-Batu\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\adon\Application\Epotensi-Batu\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `po...')
+#1 E:\adon\Application\Epotensi-Batu\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 E:\adon\Application\Epotensi-Batu\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 E:\adon\Application\Epotensi-Batu\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 E:\adon\Application\Epotensi-Batu\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\adon\Application\Epotensi-Batu\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\adon\Application\Epotensi-Batu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\adon\Application\Epotensi-Batu\app\Controllers\Restoran.php(181): CodeIgniter\Model->insert(Array)
+#8 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Restoran->simpanpendataan()
+#9 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#10 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#13 {main}
+CRITICAL - 2021-10-05 01:55:13 --> Unknown column 'n' in 'field list'
+#0 E:\adon\Application\Epotensi-Batu\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `po...')
+#1 E:\adon\Application\Epotensi-Batu\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 E:\adon\Application\Epotensi-Batu\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 E:\adon\Application\Epotensi-Batu\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 E:\adon\Application\Epotensi-Batu\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\adon\Application\Epotensi-Batu\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\adon\Application\Epotensi-Batu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\adon\Application\Epotensi-Batu\app\Controllers\Restoran.php(181): CodeIgniter\Model->insert(Array)
+#8 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Restoran->simpanpendataan()
+#9 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#10 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#13 {main}
+CRITICAL - 2021-10-05 01:56:09 --> Undefined index: sepi
+#0 E:\adon\Application\Epotensi-Batu\app\Views\restoran\detailpotensi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\adon\\Applica...', 71, Array)
+#1 E:\adon\Application\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('restoran/detail...', Array, true)
+#4 E:\adon\Application\Epotensi-Batu\app\Controllers\Restoran.php(216): view('restoran/detail...', Array)
+#5 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Restoran->detail('4')
+#6 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#7 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-05 22:54:09 --> Undefined variable: datareklame
+#0 E:\adon\Application\Epotensi-Batu\app\Views\parkir\formpendataan.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 21, Array)
+#1 E:\adon\Application\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('parkir/formpend...', Array, true)
+#4 E:\adon\Application\Epotensi-Batu\app\Controllers\Parkir.php(141): view('parkir/formpend...')
+#5 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Parkir->pendataan()
+#6 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#7 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-05 22:55:22 --> Undefined variable: dataparkir
+#0 E:\adon\Application\Epotensi-Batu\app\Views\parkir\formpendataan.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 21, Array)
+#1 E:\adon\Application\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('parkir/formpend...', Array, true)
+#4 E:\adon\Application\Epotensi-Batu\app\Controllers\Parkir.php(141): view('parkir/formpend...')
+#5 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Parkir->pendataan()
+#6 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#7 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-10-05 22:57:12 --> Undefined variable: id
+#0 E:\adon\Application\Epotensi-Batu\app\Controllers\Parkir.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 142, Array)
+#1 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Parkir->pendataan()
+#2 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#3 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#6 {main}
+CRITICAL - 2021-10-05 22:57:58 --> Undefined variable: id
+#0 E:\adon\Application\Epotensi-Batu\app\Controllers\Parkir.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\adon\\Applica...', 142, Array)
+#1 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Parkir->pendataan()
+#2 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#3 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#6 {main}
+CRITICAL - 2021-10-05 22:58:15 --> Too few arguments to function App\Controllers\Parkir::pendataan(), 0 passed in E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Parkir->pendataan()
+#1 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#2 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-05 23:00:11 --> Too few arguments to function App\Controllers\Parkir::pendataan(), 0 passed in E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Parkir->pendataan()
+#1 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#2 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-05 23:03:09 --> Too few arguments to function App\Controllers\Parkir::pendataan(), 0 passed in E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Parkir->pendataan()
+#1 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#2 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-05 23:04:09 --> Too few arguments to function App\Controllers\Parkir::pendataan(), 0 passed in E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Parkir->pendataan()
+#1 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#2 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-05 23:05:56 --> Too few arguments to function App\Controllers\Parkir::pendataan(), 0 passed in E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Parkir->pendataan()
+#1 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#2 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-05 23:06:58 --> Too few arguments to function App\Controllers\Parkir::pendataan(), 0 passed in E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Parkir->pendataan()
+#1 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#2 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}
+CRITICAL - 2021-10-05 23:07:09 --> Too few arguments to function App\Controllers\Parkir::pendataan(), 0 passed in E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Parkir->pendataan()
+#1 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#2 E:\adon\Application\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}

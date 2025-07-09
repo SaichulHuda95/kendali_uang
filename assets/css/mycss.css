@@ -1,0 +1,278 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.body-layout {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px; /* atau sesuai tinggi navbar kamu */
+}
+
+main {
+  flex: 1;
+}
+
+.border {
+  border-radius: 20px;
+}
+
+.border-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Glass nav style */
+.nav-glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  color: #2c3e50;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  /* position: relative; */
+  z-index: 1055; /* penting supaya di atas konten lain */
+}
+
+/* Glass card style */
+.card-glass {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  color: #2c3e50;
+  position: relative;
+}
+
+/* Input glass */
+.glass {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #2c3e50;
+}
+
+.glass:focus {
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+  outline: none;
+}
+
+/* Logo spacing */
+.navbar-brand {
+  padding-right: 2rem;
+  margin-right: 2rem;
+  flex: 0 0 100px;
+  max-width: 150px;
+}
+
+/* Dropdown fix */
+.dropdown-menu {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 254, 254, 0.986);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  z-index: 9999 !important;
+  position: absolute !important;
+}
+
+/* Supaya dropdown tidak terpotong */
+body,
+html,
+main,
+.container,
+.dataTables_wrapper {
+  overflow: visible !important;
+  position: relative;
+  z-index: 1;
+}
+
+.brand-text {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #2c3e50; /* Dark blue */
+}
+
+.footer-glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  color: #2c3e50;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-glass a {
+  color: #2c3e50;
+}
+
+.footer-glass a:hover {
+  text-decoration: underline;
+  color: #2c3e50;
+}
+
+.nav-pills .nav-link.active {
+  border-radius: 20px;
+}
+
+.nav-pills .nav-link:hover {
+  border-radius: 20px;
+}
+
+/* Header dan footer DataTables */
+table.dataTable thead,
+table.dataTable tfoot {
+  background: transparent;
+  color: #2c3e50;
+}
+
+/* Isi baris data */
+table.dataTable tbody tr {
+  background: transparent;
+  color: #2c3e50;
+}
+
+/* Hover baris */
+table.dataTable tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dataTables_length select,
+.dataTables_filter input {
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #2c3e50;
+  border-radius: 10px;
+  padding: 4px 8px;
+}
+
+.dataTables_filter input:focus {
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+  outline: none;
+}
+
+.page-link {
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #2c3e50;
+  /* border-radius: 10px; */
+}
+
+/* Buat tbody tetap transparan */
+.table-glass tbody tr,
+.table-glass tbody td {
+  background-color: transparent !important;
+  color: #2c3e50;
+  padding: 1rem;
+}
+
+/* Hover efek tetap lembut */
+.table-glass tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.table-glass thead th {
+  background-color: transparent;
+  color: #2c3e50;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.swal2-popup.swal-glass {
+  border-radius: 20px;
+}
+
+.list-glass {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #2c3e50;
+}
+
+.glass-spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid rgba(255, 255, 255, 0.2);
+  border-top: 6px solid #3f5efb;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.text-title {
+  color: #2c3e50;
+  font-weight: 700;
+  font-size: 1.75rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.quote-tips {
+  font-style: italic;
+  border-left: 4px solid rgba(171, 161, 161, 0.4);
+  padding-left: 1rem;
+  color: #2c3e50;
+  font-size: 1.1rem;
+  position: relative;
+  transition: opacity 0.5s ease;
+}
+
+.quote-tips::before {
+  content: "“";
+  font-size: 2rem;
+  position: absolute;
+  left: -0.8rem;
+  top: -0.5rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.breadcrumb {
+  background: rgba(255, 255, 255, 0.1); /* transparan */
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.breadcrumb-item a {
+  color: #3498db;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-item a:hover {
+  color: #1d6fa5;
+  text-decoration: underline;
+}
+
+.breadcrumb-item.active {
+  color: #555;
+  font-weight: 600;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "›";
+  color: #999;
+  padding: 0 8px;
+}

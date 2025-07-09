@@ -1,0 +1,14 @@
+CRITICAL - 2021-11-29 04:37:58 --> Too few arguments to function App\Models\Modelpotensihoteldetail::getData(), 0 passed in C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php on line 447 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(447): App\Models\Modelpotensihoteldetail->getData()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-29 04:40:16 --> Too few arguments to function App\Models\Modelpotensihoteldetail::getData(), 0 passed in C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php on line 447 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(447): App\Models\Modelpotensihoteldetail->getData()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

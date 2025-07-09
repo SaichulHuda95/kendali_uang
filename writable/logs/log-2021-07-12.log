@@ -1,0 +1,49 @@
+CRITICAL - 2021-07-12 02:26:00 --> Undefined variable: namahotel
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Views\pj\modalformedit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 16, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(220): include('C:\\Users\\dbi\\Do...')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Common.php(1217): CodeIgniter\View\View->render('pj/modalformedi...', Array, true)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Pj.php(106): view('pj/modalformedi...', Array)
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Pj->formEdit()
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pj))
+#7 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#10 {main}
+CRITICAL - 2021-07-12 02:26:22 --> Undefined variable: namahotel
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Views\pj\modalformedit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 16, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(220): include('C:\\Users\\dbi\\Do...')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Common.php(1217): CodeIgniter\View\View->render('pj/modalformedi...', Array, true)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Pj.php(106): view('pj/modalformedi...', Array)
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Pj->formEdit()
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pj))
+#7 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#10 {main}
+CRITICAL - 2021-07-12 02:56:59 --> Undefined variable: idmblb
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Mblb.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 94, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Mblb->formEdit()
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-07-12 21:26:14 --> Undefined offset: 1
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Router\Router.php(465): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\dbi\\Do...', 465, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Router\Router.php(152): CodeIgniter\Router\Router->checkRoutes('/')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('/')
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#7 {main}
+CRITICAL - 2021-07-12 21:26:32 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Config\Routes.php on line 34 and at least 2 expected
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Config\Routes.php(34): CodeIgniter\Router\RouteCollection->get('auth/login')
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(803): require('C:\\Users\\dbi\\Do...')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}

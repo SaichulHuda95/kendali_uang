@@ -1,0 +1,510 @@
+CRITICAL - 2021-11-30 03:53:55 --> Too few arguments to function App\Models\Modelpotensihoteldetail::getData(), 0 passed in C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php on line 447 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(447): App\Models\Modelpotensihoteldetail->getData()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 03:56:07 --> Too few arguments to function App\Models\Modelpotensihoteldetail::getData(), 0 passed in C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php on line 447 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(447): App\Models\Modelpotensihoteldetail->getData()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 17:00:08 --> Illegal string offset 'jenis_kamar'
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\editpotensi.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 04:13:22 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#2 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-30 17:14:26 --> Illegal string offset 'jenis_kamar'
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\editpotensi.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 17:16:14 --> Illegal string offset 'jenis_kamar'
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\editpotensi.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 17:17:06 --> Illegal string offset 'jenis_kamar'
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\editpotensi.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 17:17:10 --> Illegal string offset 'jenis_kamar'
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\editpotensi.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 17:17:19 --> Illegal string offset 'jenis_kamar'
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\editpotensi.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 17:17:52 --> Illegal string offset 'jenis_kamar'
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\editpotensi.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 17:20:42 --> Illegal string offset 'jenis_kamar'
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\editpotensi.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 18:19:25 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\editpotensi.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 18:20:00 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\editpotensi.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 18:20:50 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\editpotensi.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 18:25:47 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\editpotensi.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 18:25:58 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\editpotensi.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 18:26:59 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\editpotensi.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(457): view('hotel/admin/edi...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('28')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 20:31:58 --> There is no data to insert.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\e-potensi\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(505): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('13')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 20:35:38 --> There is no data to insert.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\e-potensi\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(505): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('13')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 20:37:57 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(496): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('13')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 20:38:09 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(496): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('13')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 20:40:47 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(496): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('13')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 20:40:57 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(496): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('13')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 20:43:19 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(496): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('13')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 20:43:37 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(496): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('13')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 20:43:51 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(496): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('13')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 20:46:14 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(496): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('13')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 20:48:06 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(496): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('13')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 21:16:00 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray('20211130359', 'update')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, '20211130359')
+#2 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(494): CodeIgniter\Model->update('20211130359', '20211130359', Array)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('20211130359')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-30 21:16:48 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray('20211130359', 'update')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, '20211130359')
+#2 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(494): CodeIgniter\Model->update('14', '20211130359', Array)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-30 21:17:02 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray('20211130359', 'update')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, '20211130359')
+#2 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(494): CodeIgniter\Model->update('14', '20211130359', Array)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-30 21:18:33 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray('20211130359', 'update')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, '20211130359')
+#2 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(494): CodeIgniter\Model->update('14', '20211130359', Array)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-30 21:18:47 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray('20211130359', 'update')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, '20211130359')
+#2 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(494): CodeIgniter\Model->update('14', '20211130359', Array)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-30 21:20:11 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray('20211130359', 'update')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, '20211130359')
+#2 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(494): CodeIgniter\Model->update('14', '20211130359', Array)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-30 21:20:26 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray('20211130359', 'update')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, '20211130359')
+#2 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(494): CodeIgniter\Model->update('14', '20211130359', Array)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-30 21:23:32 --> Argument 1 passed to CodeIgniter\BaseModel::insertBatch() must be of the type array or null, string given, called in C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php on line 503
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(503): CodeIgniter\BaseModel->insertBatch('20211130359', Array)
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('20211130359')
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 21:23:47 --> Argument 1 passed to CodeIgniter\BaseModel::insertBatch() must be of the type array or null, string given, called in C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php on line 503
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(503): CodeIgniter\BaseModel->insertBatch('20211130359', Array)
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('20211130359')
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 21:29:18 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(719): CodeIgniter\BaseModel->transformDataToArray('14', 'insert')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(705): CodeIgniter\BaseModel->insert('14', false)
+#2 C:\xampp\htdocs\e-potensi\system\BaseModel.php(667): CodeIgniter\Model->insert('14', false)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(493): CodeIgniter\BaseModel->save('14', Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 21:30:19 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(719): CodeIgniter\BaseModel->transformDataToArray('14', 'insert')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(705): CodeIgniter\BaseModel->insert('14', false)
+#2 C:\xampp\htdocs\e-potensi\system\BaseModel.php(667): CodeIgniter\Model->insert('14', false)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(493): CodeIgniter\BaseModel->save('14', Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 21:40:51 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(502): CodeIgniter\Model->update('14', Array)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-30 21:41:23 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(502): CodeIgniter\Model->update('14', Array)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-30 21:47:51 --> Argument 1 passed to CodeIgniter\BaseModel::insertBatch() must be of the type array or null, string given, called in C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php on line 502
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(502): CodeIgniter\BaseModel->insertBatch('14', Array)
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 21:48:15 --> Argument 1 passed to CodeIgniter\BaseModel::insertBatch() must be of the type array or null, string given, called in C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php on line 502
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(502): CodeIgniter\BaseModel->insertBatch('14', Array)
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 21:57:46 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(719): CodeIgniter\BaseModel->transformDataToArray('14', 'insert')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(705): CodeIgniter\BaseModel->insert('14', false)
+#2 C:\xampp\htdocs\e-potensi\system\BaseModel.php(667): CodeIgniter\Model->insert('14', false)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(502): CodeIgniter\BaseModel->save('14', Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 21:58:23 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\e-potensi\system\Model.php(371): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(975): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(502): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-30 22:13:22 --> Argument 1 passed to CodeIgniter\BaseModel::insertBatch() must be of the type array or null, string given, called in C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php on line 502
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(502): CodeIgniter\BaseModel->insertBatch('20211130359', Array)
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('20211130359')
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 22:13:35 --> Argument 1 passed to CodeIgniter\BaseModel::insertBatch() must be of the type array or null, string given, called in C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php on line 502
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(502): CodeIgniter\BaseModel->insertBatch('20211130359', Array)
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('20211130359')
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 22:17:07 --> There is no data to update.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\e-potensi\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\e-potensi\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(502): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 22:33:52 --> There is no data to insert.
+#0 C:\xampp\htdocs\e-potensi\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\e-potensi\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(503): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 22:35:05 --> Argument 2 passed to CodeIgniter\BaseModel::updateBatch() must be of the type string or null, array given, called in C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php on line 503
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(503): CodeIgniter\BaseModel->updateBatch(Array, Array)
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 22:36:14 --> Call to undefined method App\Models\Modelpotensirestorandetail::saveBatch
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(503): CodeIgniter\Model->__call('saveBatch', Array)
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 22:51:22 --> One or more rows submitted for batch updating is missing the specified index.
+#0 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(2592): CodeIgniter\Database\BaseBuilder->setUpdateBatch(Array, 'no_pendataanArr...')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(371): CodeIgniter\Database\BaseBuilder->updateBatch(Array, 'no_pendataanArr...', 100)
+#2 C:\xampp\htdocs\e-potensi\system\BaseModel.php(975): CodeIgniter\Model->doUpdateBatch(Array, 'no_pendataanArr...', 100, false)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(503): CodeIgniter\BaseModel->updateBatch(Array, 'no_pendataanArr...')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 22:52:00 --> Argument 2 passed to CodeIgniter\BaseModel::updateBatch() must be of the type string or null, array given, called in C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php on line 503
+#0 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(503): CodeIgniter\BaseModel->updateBatch(Array, Array)
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 22:57:22 --> One or more rows submitted for batch updating is missing the specified index.
+#0 C:\xampp\htdocs\e-potensi\system\Database\BaseBuilder.php(2592): CodeIgniter\Database\BaseBuilder->setUpdateBatch(Array, 'no_pendataan')
+#1 C:\xampp\htdocs\e-potensi\system\Model.php(371): CodeIgniter\Database\BaseBuilder->updateBatch(Array, 'no_pendataan', 100)
+#2 C:\xampp\htdocs\e-potensi\system\BaseModel.php(975): CodeIgniter\Model->doUpdateBatch(Array, 'no_pendataan', 100, false)
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Restoran.php(503): CodeIgniter\BaseModel->updateBatch(Array, 'no_pendataan')
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Restoran->updatepotensiadmin('14')
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restoran))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

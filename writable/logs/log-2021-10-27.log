@@ -1,0 +1,22 @@
+CRITICAL - 2021-10-27 21:20:15 --> Cannot use object of type Myth\Auth\Entities\User as array
+#0 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('manajemen/data', Array, true)
+#3 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Manajemen.php(36): view('manajemen/data', Array)
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Manajemen->index()
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen))
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#9 {main}
+CRITICAL - 2021-10-27 21:22:24 --> Cannot use object of type Myth\Auth\Entities\User as array
+#0 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('manajemen/data', Array, true)
+#3 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Manajemen.php(36): view('manajemen/data', Array)
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Manajemen->index()
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen))
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#9 {main}

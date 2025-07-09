@@ -1,0 +1,248 @@
+CRITICAL - 2022-03-04 14:02:37 --> Class 'App\Models\Modelpotensimblbdetail' not found
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(908): App\Controllers\Mblb->__construct()
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-04 14:02:57 --> Class 'App\Models\Modelpotensimblbdetail' not found
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(908): App\Controllers\Mblb->__construct()
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-04 14:03:20 --> Class 'App\Models\Modelpotensimblbdetail' not found
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(908): App\Controllers\Mblb->__construct()
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-04 14:04:24 --> Class 'App\Models\Modelpotensimblbdetil' not found
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(908): App\Controllers\Mblb->__construct()
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-04 14:05:55 --> Call to a member function insertBatch() on null
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->simpanpendataanadmin()
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-04 14:07:29 --> mysqli_sql_exception: Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist in C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `po...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(2107): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\system\Model.php(323): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#5 C:\xampp\htdocs\e-potensi_banyuasin\system\BaseModel.php(843): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#6 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(239): CodeIgniter\BaseModel->insertBatch(Array)
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->simpanpendataanadmin()
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#9 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-04 14:07:29 --> Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `po...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(2107): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\system\Model.php(323): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#5 C:\xampp\htdocs\e-potensi_banyuasin\system\BaseModel.php(843): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#6 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(239): CodeIgniter\BaseModel->insertBatch(Array)
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->simpanpendataanadmin()
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#9 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-04 14:09:06 --> mysqli_sql_exception: Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist in C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `po...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(2107): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\system\Model.php(323): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#5 C:\xampp\htdocs\e-potensi_banyuasin\system\BaseModel.php(843): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#6 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(239): CodeIgniter\BaseModel->insertBatch(Array)
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->simpanpendataanadmin()
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#9 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-04 14:39:13 --> mysqli_sql_exception: Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist in C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\app\Models\Modelpotensimblbdetail.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(359): App\Models\Modelpotensimblbdetail->getData('4')
+#6 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->detailadmin('4')
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-04 14:39:13 --> Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\app\Models\Modelpotensimblbdetail.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(359): App\Models\Modelpotensimblbdetail->getData('4')
+#6 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->detailadmin('4')
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-04 14:40:33 --> mysqli_sql_exception: Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist in C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\app\Models\Modelpotensimblbdetail.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(359): App\Models\Modelpotensimblbdetail->getData('4')
+#6 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->detailadmin('4')
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-04 14:41:22 --> mysqli_sql_exception: Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist in C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\app\Models\Modelpotensimblbdetail.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(359): App\Models\Modelpotensimblbdetail->getData('4')
+#6 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->detailadmin('4')
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-04 14:41:22 --> Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\app\Models\Modelpotensimblbdetail.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(359): App\Models\Modelpotensimblbdetail->getData('4')
+#6 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->detailadmin('4')
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-04 14:43:07 --> mysqli_sql_exception: Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist in C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\app\Models\Modelpotensimblbdetail.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(359): App\Models\Modelpotensimblbdetail->getData('4')
+#6 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->detailadmin('4')
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-04 14:43:07 --> Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\app\Models\Modelpotensimblbdetail.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(359): App\Models\Modelpotensimblbdetail->getData('4')
+#6 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->detailadmin('4')
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-04 14:45:30 --> mysqli_sql_exception: Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist in C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\app\Models\Modelpotensimblbdetail.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(359): App\Models\Modelpotensimblbdetail->getData('4')
+#6 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->detailadmin('4')
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-04 14:45:30 --> Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\app\Models\Modelpotensimblbdetail.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(359): App\Models\Modelpotensimblbdetail->getData('4')
+#6 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->detailadmin('4')
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-04 14:45:40 --> mysqli_sql_exception: Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist in C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\app\Models\Modelpotensimblbdetail.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(359): App\Models\Modelpotensimblbdetail->getData('4')
+#6 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->detailadmin('4')
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-04 14:45:40 --> Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\app\Models\Modelpotensimblbdetail.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(359): App\Models\Modelpotensimblbdetail->getData('4')
+#6 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->detailadmin('4')
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-04 14:45:58 --> mysqli_sql_exception: Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist in C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\app\Models\Modelpotensimblbdetail.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(359): App\Models\Modelpotensimblbdetail->getData('4')
+#6 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->detailadmin('4')
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-04 14:46:34 --> mysqli_sql_exception: Table 'epotensi_banyuasin.potensi_mblb_detail' doesn't exist in C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\app\Models\Modelpotensimblbdetail.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(359): App\Models\Modelpotensimblbdetail->getData('4')
+#6 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->detailadmin('4')
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-04 14:47:31 --> mysqli_sql_exception: Unknown column 'potensi_mblb_detail.no_pendataan' in 'on clause' in C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-potensi_banyuasin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-potensi_banyuasin\app\Models\Modelpotensimblbdetail.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-potensi_banyuasin\app\Controllers\Mblb.php(359): App\Models\Modelpotensimblbdetail->getData('4')
+#6 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(936): App\Controllers\Mblb->detailadmin('4')
+#7 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mblb))
+#8 C:\xampp\htdocs\e-potensi_banyuasin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-potensi_banyuasin\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,11 @@
+CRITICAL - 2021-12-14 17:53:59 --> Illegal string offset 'jenis_kamar'
+#0 C:\xampp\htdocs\e-potensi\app\Views\hotel\admin\formpendataan.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 172, Array)
+#1 C:\xampp\htdocs\e-potensi\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-potensi\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-potensi\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/for...', Array, true)
+#4 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(168): view('hotel/admin/for...', Array)
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataanadmin('1')
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

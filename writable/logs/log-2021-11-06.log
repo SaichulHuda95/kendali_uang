@@ -1,0 +1,140 @@
+CRITICAL - 2021-11-06 09:05:46 --> Undefined index: golongan_kamar
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\detailpotensi.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\adon\\Applica...', 69, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/det...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(424): view('hotel/admin/det...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->detailadmin('1')
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-11-06 09:05:59 --> Undefined index: golongan_kamar
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\detailpotensi.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\adon\\Applica...', 69, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/det...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(424): view('hotel/admin/det...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->detailadmin('2')
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-11-06 09:25:06 --> Call to undefined method App\Models\Modelpotensihoteldetail::insert_batch
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(245): CodeIgniter\Model->__call('insert_batch', Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#6 {main}
+CRITICAL - 2021-11-06 09:36:10 --> Undefined index: golongan_kamar
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\detailpotensi.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\adon\\Applica...', 69, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/det...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(424): view('hotel/admin/det...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->detailadmin('1')
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-11-06 09:59:57 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, string given, called in E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php on line 826
+#0 E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php(826): CodeIgniter\BaseModel->doProtectFields('Bintang Lima')
+#1 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(246): CodeIgniter\BaseModel->insertBatch(Array)
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#7 {main}
+CRITICAL - 2021-11-06 10:01:58 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, string given, called in E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php on line 826
+#0 E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php(826): CodeIgniter\BaseModel->doProtectFields('Bintang Empat')
+#1 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(246): CodeIgniter\BaseModel->insertBatch(Array)
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#7 {main}
+CRITICAL - 2021-11-06 10:09:52 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, string given, called in E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php on line 826
+#0 E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php(826): CodeIgniter\BaseModel->doProtectFields('700000')
+#1 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(246): CodeIgniter\BaseModel->insertBatch(Array)
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#7 {main}
+CRITICAL - 2021-11-06 10:18:08 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, string given, called in E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php on line 826
+#0 E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php(826): CodeIgniter\BaseModel->doProtectFields('500000')
+#1 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(247): CodeIgniter\BaseModel->insertBatch(Array)
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#7 {main}
+CRITICAL - 2021-11-06 10:27:36 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, string given, called in E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php on line 826
+#0 E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php(826): CodeIgniter\BaseModel->doProtectFields('700000')
+#1 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(247): CodeIgniter\BaseModel->insertBatch(Array)
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#7 {main}
+CRITICAL - 2021-11-06 10:28:59 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, string given, called in E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php on line 826
+#0 E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php(826): CodeIgniter\BaseModel->doProtectFields('700000')
+#1 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(247): CodeIgniter\BaseModel->insertBatch(Array)
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#7 {main}
+CRITICAL - 2021-11-06 10:31:46 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, string given, called in E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php on line 826
+#0 E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php(826): CodeIgniter\BaseModel->doProtectFields('Bintang Lima')
+#1 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(247): CodeIgniter\BaseModel->insertBatch(Array)
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#7 {main}
+CRITICAL - 2021-11-06 10:32:55 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, string given, called in E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php on line 826
+#0 E:\adon\Application\Website\Epotensi-Batu\system\BaseModel.php(826): CodeIgniter\BaseModel->doProtectFields('700000')
+#1 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(247): CodeIgniter\BaseModel->insertBatch(Array)
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#4 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#7 {main}
+CRITICAL - 2021-11-06 22:04:55 --> Undefined index: golongan_kamar
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\editpotensi.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\adon\\Applica...', 73, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/edi...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(438): view('hotel/admin/edi...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->editpotensiadmin('4')
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}
+CRITICAL - 2021-11-06 22:13:40 --> Undefined index: golongan_kamar
+#0 E:\adon\Application\Website\Epotensi-Batu\app\Views\hotel\admin\detailpotensi.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\adon\\Applica...', 69, Array)
+#1 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(220): include('E:\\adon\\Applica...')
+#2 E:\adon\Application\Website\Epotensi-Batu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\adon\Application\Website\Epotensi-Batu\system\Common.php(1217): CodeIgniter\View\View->render('hotel/admin/det...', Array, true)
+#4 E:\adon\Application\Website\Epotensi-Batu\app\Controllers\Hotel.php(420): view('hotel/admin/det...', Array)
+#5 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->detailadmin('4')
+#6 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#10 {main}

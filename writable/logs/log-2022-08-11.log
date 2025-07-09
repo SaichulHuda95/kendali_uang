@@ -1,0 +1,775 @@
+ERROR - 2022-08-11 01:03:58 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 01:03:58 --> Table 'ujian.tbl_ruangan' doesn't exist
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 01:04:24 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 01:04:24 --> Trying to get property 'username' of non-object
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Views/insertdata/pesanruangan.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 21, Array)
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Common.php(1217): CodeIgniter\View\View->render('insertdata/pesa...', Array, true)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(130): view('insertdata/pesa...', Array)
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-11 01:05:50 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 01:05:50 --> Table 'ujian.tbl_ruangan' doesn't exist
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 01:06:03 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 01:06:03 --> Table 'ujian.tbl_ruangan' doesn't exist
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 01:06:20 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 01:06:34 --> Trying to get property 'role_id' of non-object
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Views/layout/main.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 70, Array)
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(236): CodeIgniter\View\View->render('layout/main', Array, true)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Common.php(1217): CodeIgniter\View\View->render('insertdata/data...', Array, true)
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(27): view('insertdata/data...', Array)
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->index()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 01:06:35 --> Trying to get property 'username' of non-object
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Views/layout/home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 10, Array)
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Common.php(1217): CodeIgniter\View\View->render('layout/home', Array, true)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Home.php(21): view('layout/home', Array)
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-11 01:06:54 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 01:07:03 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 01:07:03 --> Table 'ujian.tbl_ruangan' doesn't exist
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 01:07:20 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 13:07:20 --> Undefined variable: jenis_ruangan
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Views/insertdata/pesanruangan.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 71, Array)
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Common.php(1217): CodeIgniter\View\View->render('insertdata/pesa...', Array, true)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(130): view('insertdata/pesa...', Array)
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-11 01:07:38 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 01:07:49 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 01:07:49 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 01:08:58 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 01:08:58 --> Table 'ujian.tbl_ruangan' doesn't exist
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 01:09:20 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 01:09:20 --> Table 'ujian.tbl_ruangan' doesn't exist
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 01:09:28 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 01:10:20 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 01:10:20 --> Table 'ujian.tbl_ruangan' doesn't exist
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 01:11:02 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 01:11:02 --> Table 'ujian.tbl_ruangan' doesn't exist
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 01:11:46 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 13:12:11 --> Undefined variable: jenisruangan
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Views/insertdata/pesanruangan.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 71, Array)
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Common.php(1217): CodeIgniter\View\View->render('insertdata/pesa...', Array, true)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(131): view('insertdata/pesa...', Array)
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-11 01:13:20 --> mysqli_sql_exception: Table 'ujian.tbl_ruangan' doesn't exist in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 01:13:20 --> Table 'ujian.tbl_ruangan' doesn't exist
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelRuangan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Insertdata.php(123): App\Models\ModelRuangan->getRuangan()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\InsertData->pesanruangan('2')
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InsertData))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 04:04:19 --> Too few arguments to function App\Controllers\Pesanan::datapesanandetail(), 0 passed in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php on line 936 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->datapesanandetail()
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-11 04:04:41 --> Too few arguments to function App\Controllers\Pesanan::datapesanandetail(), 0 passed in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php on line 936 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->datapesanandetail()
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-11 04:05:10 --> Undefined index: no_pemesan
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Views/pesanan/datapesanan.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 44, Array)
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Common.php(1217): CodeIgniter\View\View->render('pesanan/datapes...', Array, true)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(84): view('pesanan/datapes...', Array)
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->index()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 05:48:45 --> Argument 2 passed to CodeIgniter\BaseModel::updateBatch() must be of the type string or null, array given, called in /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php on line 81
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(81): CodeIgniter\BaseModel->updateBatch(Array, Array)
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->simpanpesanan()
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 05:48:58 --> Argument 2 passed to CodeIgniter\BaseModel::updateBatch() must be of the type string or null, array given, called in /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php on line 81
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(81): CodeIgniter\BaseModel->updateBatch(Array, Array)
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->simpanpesanan()
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 05:53:17 --> Undefined index: jenis_ruangan
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 81, Array)
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->simpanpesanan()
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 05:54:29 --> There is no data to update.
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(82): CodeIgniter\Model->update('PREMIUM', Array)
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->simpanpesanan()
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-11 05:55:30 --> There is no data to update.
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(82): CodeIgniter\Model->update('PREMIUM', Array)
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->simpanpesanan()
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-11 05:57:38 --> Argument 1 passed to CodeIgniter\BaseModel::updateBatch() must be of the type array or null, string given, called in /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php on line 82
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(82): CodeIgniter\BaseModel->updateBatch('PREMIUM', Array)
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->simpanpesanan()
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 06:11:19 --> syntax error, unexpected 'session' (T_STRING)
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('pesanan/pesanru...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('pesanan/pesanru...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 06:11:37 --> syntax error, unexpected 'session' (T_STRING)
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('pesanan/pesanru...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('pesanan/pesanru...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 06:16:24 --> There is no data to update.
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(79): CodeIgniter\Model->update('0', Array)
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->simpanpesanan()
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-11 18:16:34 --> Undefined index: nama_ruangan
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Views/pesanan/pesanruangan.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 129, Array)
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Common.php(1217): CodeIgniter\View\View->render('pesanan/pesanru...', Array, true)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(33): view('pesanan/pesanru...', Array)
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->pesanruangan('2')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 07:06:27 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Model.php on line 350
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Model.php(350): CodeIgniter\Database\BaseBuilder->set('status_ruangan', Array, NULL)
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/BaseModel.php(901): CodeIgniter\Model->doUpdate(Array, Array)
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(78): CodeIgniter\Model->update('0', Array)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->simpanpesanan()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-11 07:41:02 --> Call to undefined method App\Models\ModelPesanan::getJenisRuangan
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(112): CodeIgniter\Model->__call('getJenisRuangan', Array)
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->hapuspesanan()
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-11 07:45:04 --> mysqli_sql_exception: Column 'no_pemesanan' in where clause is ambiguous in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `jenis_r...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jenis_r...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jenis_r...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_r...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelPesanan.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(112): App\Models\ModelPesanan->getJenisRuangan('11082022756')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->hapuspesanan()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 07:45:04 --> Column 'no_pemesanan' in where clause is ambiguous
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `jenis_r...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jenis_r...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jenis_r...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_r...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelPesanan.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(112): App\Models\ModelPesanan->getJenisRuangan('11082022756')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->hapuspesanan()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 07:45:39 --> mysqli_sql_exception: Column 'no_pemesanan' in where clause is ambiguous in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `jenis_r...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jenis_r...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jenis_r...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_r...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelPesanan.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(112): App\Models\ModelPesanan->getJenisRuangan('11082022756')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->hapuspesanan()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 07:45:39 --> Column 'no_pemesanan' in where clause is ambiguous
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `jenis_r...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jenis_r...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jenis_r...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_r...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelPesanan.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Pesanan.php(112): App\Models\ModelPesanan->getJenisRuangan('11082022756')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->hapuspesanan()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 07:47:38 --> Call to a member function getJenisRuangan() on null
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Pesanan->hapuspesanan()
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-11 07:59:20 --> Class 'App\Models\Modellaporan' not found
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(908): App\Controllers\Laporan->__construct()
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-11 08:22:30 --> Invalid file: layout/menu.php
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(236): CodeIgniter\View\View->render('layout/menu', Array, true)
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Common.php(1217): CodeIgniter\View\View->render('laporan/index', Array, true)
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(21): view('laporan/index', Array)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->index()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-11 08:29:26 --> Invalid file: layout/menu.php
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/menu.php')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/View/View.php(236): CodeIgniter\View\View->render('layout/menu', Array, true)
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Common.php(1217): CodeIgniter\View\View->render('laporan/index', Array, true)
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(21): view('laporan/index', Array)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->index()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-08-11 09:04:55 --> mysqli_sql_exception: Unknown column 'tanggal' in 'field list' in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `tanggal...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tanggal...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tanggal...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tanggal...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelLaporan.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(30): App\Models\ModelLaporan->getHasilRekap()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->hasilRekap()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 09:04:55 --> Unknown column 'tanggal' in 'field list'
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `tanggal...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tanggal...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tanggal...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tanggal...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelLaporan.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(30): App\Models\ModelLaporan->getHasilRekap()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->hasilRekap()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 09:05:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '04' at line 2 in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `tanggal...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tanggal...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tanggal...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tanggal...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelLaporan.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(33): App\Models\ModelLaporan->getHasilFilter('04')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->hasilRekap()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 09:05:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '04' at line 2
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `tanggal...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tanggal...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tanggal...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tanggal...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelLaporan.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(33): App\Models\ModelLaporan->getHasilFilter('04')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->hasilRekap()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 09:05:07 --> mysqli_sql_exception: Unknown column 'tanggal' in 'field list' in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `tanggal...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tanggal...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tanggal...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tanggal...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelLaporan.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(30): App\Models\ModelLaporan->getHasilRekap()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->hasilRekap()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 09:05:07 --> Unknown column 'tanggal' in 'field list'
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `tanggal...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tanggal...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tanggal...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tanggal...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelLaporan.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(30): App\Models\ModelLaporan->getHasilRekap()
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->hasilRekap()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 09:12:13 --> mysqli_sql_exception: FUNCTION ujian.SUBSTRING does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelLaporan.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(33): App\Models\ModelLaporan->getHasilFilter('08')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->hasilRekap()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 09:12:13 --> FUNCTION ujian.SUBSTRING does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelLaporan.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(33): App\Models\ModelLaporan->getHasilFilter('08')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->hasilRekap()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 09:12:39 --> mysqli_sql_exception: FUNCTION ujian.SUBSTRING does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelLaporan.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(32): App\Models\ModelLaporan->getHasilFilter('08')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->hasilRekap()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 09:12:39 --> FUNCTION ujian.SUBSTRING does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelLaporan.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(32): App\Models\ModelLaporan->getHasilFilter('08')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->hasilRekap()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 09:13:49 --> mysqli_sql_exception: FUNCTION ujian.SUBSTRING does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelLaporan.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(32): App\Models\ModelLaporan->getHasilFilter('08')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->hasilRekap()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 09:13:49 --> FUNCTION ujian.SUBSTRING does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelLaporan.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(32): App\Models\ModelLaporan->getHasilFilter('08')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->hasilRekap()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-11 09:21:33 --> mysqli_sql_exception: FUNCTION ujian.SUBSTRING does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual in /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelLaporan.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(32): App\Models\ModelLaporan->getHasilFilter('08')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->hasilRekap()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-11 09:21:33 --> FUNCTION ujian.SUBSTRING does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+#0 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Models/ModelLaporan.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/p_saichulhudaromadlon/app/Controllers/Laporan.php(32): App\Models\ModelLaporan->getHasilFilter('08')
+#6 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(936): App\Controllers\Laporan->hasilRekap()
+#7 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /Applications/MAMP/htdocs/p_saichulhudaromadlon/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/p_saichulhudaromadlon/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}

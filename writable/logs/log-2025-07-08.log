@@ -1,0 +1,479 @@
+CRITICAL - 2025-07-08 00:18:24 --> Undefined property: stdClass::$nama_pemasukan
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 176, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->get_kat_pengeluaran()
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2025-07-08 00:27:06 --> mysqli_sql_exception: Unknown column 'id_pengeluaran' in 'where clause' in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM k...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(241): App\Models\get_model->get_data_row('SELECT * FROM k...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->edit_kat_pengeluaran()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-08 00:27:06 --> Undefined variable: data_kat_pemasukan
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Views/pengaturan/modaleditkatpengeluaran.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 13, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/kendali_uang/system/Common.php(1217): CodeIgniter\View\View->render('pengaturan/moda...', Array, true)
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(247): view('pengaturan/moda...', Array)
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->edit_kat_pengeluaran()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 00:27:21 --> mysqli_sql_exception: Unknown column 'id_pengeluaran' in 'where clause' in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM k...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(241): App\Models\get_model->get_data_row('SELECT * FROM k...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->edit_kat_pengeluaran()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-08 00:27:21 --> Undefined variable: data_kat_pemasukan
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Views/pengaturan/modaleditkatpengeluaran.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 13, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/kendali_uang/system/Common.php(1217): CodeIgniter\View\View->render('pengaturan/moda...', Array, true)
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(247): view('pengaturan/moda...', Array)
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->edit_kat_pengeluaran()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 00:27:56 --> mysqli_sql_exception: Unknown column 'id_pengeluaran' in 'where clause' in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM k...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(241): App\Models\get_model->get_data_row('SELECT * FROM k...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->edit_kat_pengeluaran()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-08 00:27:56 --> Trying to get property 'nama_pengeluaran' of non-object
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Views/pengaturan/modaleditkatpengeluaran.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 13, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/kendali_uang/system/Common.php(1217): CodeIgniter\View\View->render('pengaturan/moda...', Array, true)
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(247): view('pengaturan/moda...', Array)
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->edit_kat_pengeluaran()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 00:28:42 --> mysqli_sql_exception: Unknown column 'id_pengeluaran' in 'where clause' in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM k...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(241): App\Models\get_model->get_data_row('SELECT * FROM k...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->edit_kat_pengeluaran()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-08 00:28:42 --> Trying to get property 'nama_pengeluaran' of non-object
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Views/pengaturan/modaleditkatpengeluaran.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 13, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/kendali_uang/system/Common.php(1217): CodeIgniter\View\View->render('pengaturan/moda...', Array, true)
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(247): view('pengaturan/moda...', Array)
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->edit_kat_pengeluaran()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 00:29:36 --> mysqli_sql_exception: Unknown column 'id_pengeluaran' in 'where clause' in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('UPDATE `kat_pem...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kat_pem...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kat_pem...')
+#3 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `kat_pem...', Array, false)
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Models/update_model.php(21): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(263): App\Models\update_model->update_data('kat_pemasukan', 'id_pengeluaran', '2', Array)
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->update_kat_pengeluaran()
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#8 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-07-08 00:37:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM k...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(25): App\Models\get_model->get_data_array('SELECT * FROM k...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->get_kat_pemasukan()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 00:45:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM k...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(25): App\Models\get_model->get_data_array('SELECT * FROM k...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->get_kat_pemasukan()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 00:56:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM k...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(167): App\Models\get_model->get_data_array('SELECT * FROM k...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->get_kat_pengeluaran()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 00:56:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM k...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(309): App\Models\get_model->get_data_array('SELECT * FROM k...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->get_kat_rekening()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-08 01:52:28 --> Cannot use object of type stdClass as array
+#0 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(220): include()
+#1 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Common.php(1217): CodeIgniter\View\View->render('transaksi/modal...', Array, true)
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(35): view('transaksi/modal...', Array)
+#4 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->tambah_transaksi_pemasukan()
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-07-08 02:32:48 --> mysqli_sql_exception: Unknown column 'a.id_pengeluaraan' in 'on clause' in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT a.*, b.n...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.n...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.n...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.n...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(28): App\Models\get_model->get_data_array('SELECT a.*, b.n...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->get_transaksi()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 02:33:08 --> mysqli_sql_exception: Unknown column 'a.id_pengeluaraan' in 'on clause' in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT a.*, b.n...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.n...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.n...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.n...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(28): App\Models\get_model->get_data_array('SELECT a.*, b.n...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->get_transaksi()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 02:33:27 --> mysqli_sql_exception: Unknown column 'a.id_pengeluaraan' in 'on clause' in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT a.*, b.n...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.n...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.n...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.n...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(28): App\Models\get_model->get_data_array('SELECT a.*, b.n...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->get_transaksi()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 02:33:49 --> mysqli_sql_exception: Unknown column 'c.id_rekening' in 'on clause' in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT a.*, b.n...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.n...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.n...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.n...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(28): App\Models\get_model->get_data_array('SELECT a.*, b.n...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->get_transaksi()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 02:33:59 --> mysqli_sql_exception: Unknown column 'c.id_rekening' in 'on clause' in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT a.*, b.n...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.n...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.n...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.n...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(28): App\Models\get_model->get_data_array('SELECT a.*, b.n...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->get_transaksi()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-08 13:31:45 --> Too few arguments to function App\Controllers\Transaksi::tambah_transaksi(), 0 passed in /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php on line 936 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->tambah_transaksi()
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-07-08 13:32:25 --> Undefined variable: totalTime
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Debug/Toolbar/Views/toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 41, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Debug/Toolbar.php(456): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Debug/Toolbar.php(413): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 /Applications/MAMP/htdocs/kendali_uang/system/Events/Events.php(166): call_user_func(Object(Closure))
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-07-08 13:32:27 --> Too few arguments to function App\Controllers\Transaksi::tambah_transaksi(), 0 passed in /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php on line 936 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->tambah_transaksi()
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-07-08 13:34:43 --> Undefined property: stdClass::$nama_pengeluaraan
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Views/transaksi/modaltambahtransaksi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/kendali_uang/system/Common.php(1217): CodeIgniter\View\View->render('transaksi/modal...', Array, true)
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(95): view('transaksi/modal...', Array)
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->tambah_transaksi()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-08 13:36:24 --> Undefined property: stdClass::$nama_pengeluaraan
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Views/transaksi/modaltambahtransaksi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/kendali_uang/system/Common.php(1217): CodeIgniter\View\View->render('transaksi/modal...', Array, true)
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(95): view('transaksi/modal...', Array)
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->tambah_transaksi()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-08 13:42:55 --> Array to string conversion
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Applications/M...', 141, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->simpan_transaksi()
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-07-08 13:44:06 --> Array to string conversion
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Applications/M...', 141, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->simpan_transaksi()
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-07-08 13:44:33 --> Array to string conversion
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Applications/M...', 141, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->simpan_transaksi()
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-07-08 14:56:56 --> Invalid file: pengaturan/modaledittransaksi.php
+#0 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengaturan/moda...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Common.php(1217): CodeIgniter\View\View->render('pengaturan/moda...', Array, true)
+#2 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(191): view('pengaturan/moda...', Array)
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->edit_transaksi()
+#4 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-07-08 14:57:32 --> Invalid file: pengaturan/modaledittransaksi.php
+#0 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengaturan/moda...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Common.php(1217): CodeIgniter\View\View->render('pengaturan/moda...', Array, true)
+#2 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(191): view('pengaturan/moda...', Array)
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->edit_transaksi()
+#4 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-07-08 14:58:14 --> Invalid file: pengaturan/modaledittransaksi.php
+#0 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengaturan/moda...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Common.php(1217): CodeIgniter\View\View->render('pengaturan/moda...', Array, true)
+#2 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(191): view('pengaturan/moda...', Array)
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->edit_transaksi()
+#4 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2025-07-08 15:07:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY a.waktu_transaksi DESC' at line 6 in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT a.*, b.n...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.n...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.n...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.n...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(29): App\Models\get_model->get_data_array('SELECT a.*, b.n...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->get_transaksi()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-08 16:20:44 --> Undefined property: stdClass::$type
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Rekening.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 40, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Rekening->get_saldo()
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-07-08 16:20:52 --> Undefined property: stdClass::$type
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Rekening.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 40, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Rekening->get_saldo()
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-07-08 16:51:55 --> Undefined property: stdClass::$jumla_transaksi
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Rekap.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 53, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Rekap->get_rekap()
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-07-08 16:52:08 --> Undefined property: stdClass::$jumla_transaksi
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Rekap.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 53, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Rekap->get_rekap()
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2025-07-08 16:54:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY a.waktu_transaksi DESC' at line 6 in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT a.*, b.n...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.n...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.n...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.n...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Transaksi.php(29): App\Models\get_model->get_data_array('SELECT a.*, b.n...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Transaksi->get_transaksi()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 17:09:46 --> mysqli_sql_exception: Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'kendali_uang.transaksi.waktu_transaksi' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT \n       ...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n       ...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n       ...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT \n       ...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Rekap.php(57): App\Models\get_model->get_data_array('SELECT \n       ...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Rekap->get_rekap()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 17:09:49 --> mysqli_sql_exception: Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'kendali_uang.transaksi.waktu_transaksi' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT \n       ...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n       ...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n       ...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT \n       ...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Rekap.php(57): App\Models\get_model->get_data_array('SELECT \n       ...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Rekap->get_rekap()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 17:09:59 --> mysqli_sql_exception: Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'kendali_uang.transaksi.waktu_transaksi' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT \n       ...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n       ...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n       ...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT \n       ...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Rekap.php(57): App\Models\get_model->get_data_array('SELECT \n       ...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Rekap->get_rekap()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 17:13:44 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'kendali_uang.transaksi.waktu_transaksi' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT \n       ...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n       ...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n       ...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT \n       ...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Rekap.php(39): App\Models\get_model->get_data_array('SELECT \n       ...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Rekap->get_rekap()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-07-08 17:15:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '
+                SUM(CASE WHEN type = 1 THEN jumlah ELSE 0 END) AS total_pemasuk' at line 3 in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT \n       ...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n       ...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n       ...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT \n       ...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Rekap.php(39): App\Models\get_model->get_data_array('SELECT \n       ...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Rekap->get_rekap()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-08 17:29:41 --> Undefined property: stdClass::$id_rekening
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Rekap.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 62, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Rekap->get_rekap()
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-07-08 17:30:23 --> Undefined property: stdClass::$id_rekening
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Rekap.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 62, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Rekap->get_rekap()
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-07-08 17:48:11 --> Undefined variable: bulan
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Views/layout.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 154, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(236): CodeIgniter\View\View->render('layout', Array, true)
+#4 /Applications/MAMP/htdocs/kendali_uang/system/Common.php(1217): CodeIgniter\View\View->render('rekap/index', Array, true)
+#5 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Rekap.php(17): view('rekap/index', Array)
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Rekap->index()
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#8 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-08 17:48:16 --> Undefined variable: bulan
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Views/layout.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 154, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/kendali_uang/system/View/View.php(236): CodeIgniter\View\View->render('layout', Array, true)
+#4 /Applications/MAMP/htdocs/kendali_uang/system/Common.php(1217): CodeIgniter\View\View->render('rekap/index', Array, true)
+#5 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Rekap.php(17): view('rekap/index', Array)
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Rekap->index()
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#8 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-08 17:55:02 --> Too few arguments to function App\Controllers\Rekap::detail(), 2 passed in /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php on line 936 and exactly 3 expected
+#0 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Rekap->detail('8', '2025')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}

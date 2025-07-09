@@ -1,0 +1,55 @@
+ERROR - 2025-07-07 21:58:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM k...')
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(685): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /Applications/MAMP/htdocs/kendali_uang/system/Database/BaseConnection.php(621): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /Applications/MAMP/htdocs/kendali_uang/app/Models/get_model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(25): App\Models\get_model->get_data_array('SELECT * FROM k...')
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->get_kat_pemasukan()
+#6 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#7 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-07 21:59:21 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Model.php(834): CodeIgniter\Model->builder()
+#2 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(72): CodeIgniter\Model->__call('simpan_data', Array)
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->simpan_kat_pemasukan()
+#4 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-07-07 22:01:28 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Model.php(834): CodeIgniter\Model->builder()
+#2 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(73): CodeIgniter\Model->__call('simpan_data', Array)
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->simpan_kat_pemasukan()
+#4 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-07-07 22:04:37 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Model.php(834): CodeIgniter\Model->builder()
+#2 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(74): CodeIgniter\Model->__call('simpan_data', Array)
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->simpan_kat_pemasukan()
+#4 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-07-07 22:06:19 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/kendali_uang/system/Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/Model.php(834): CodeIgniter\Model->builder()
+#2 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(73): CodeIgniter\Model->__call('simpan_data', Array)
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->simpan_kat_pemasukan()
+#4 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#5 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-07-07 22:11:11 --> Undefined property: stdClass::$name
+#0 /Applications/MAMP/htdocs/kendali_uang/app/Controllers/Pengaturan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 34, Array)
+#1 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(936): App\Controllers\Pengaturan->get_kat_pemasukan()
+#2 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaturan))
+#3 /Applications/MAMP/htdocs/kendali_uang/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/kendali_uang/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}

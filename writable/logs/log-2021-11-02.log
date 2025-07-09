@@ -1,0 +1,7 @@
+CRITICAL - 2021-11-02 20:50:56 --> Too few arguments to function App\Controllers\Hotel::datauser(), 0 passed in E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(936): App\Controllers\Hotel->datauser()
+#1 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 E:\adon\Application\Website\Epotensi-Batu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\adon\Application\Website\Epotensi-Batu\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 E:\adon\Application\Website\Epotensi-Batu\system\Commands\Server\rewrite.php(45): require_once('E:\\adon\\Applica...')
+#5 {main}

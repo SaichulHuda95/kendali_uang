@@ -1,0 +1,66 @@
+CRITICAL - 2021-11-24 00:04:39 --> Call to a member function getError() on null
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-24 00:05:11 --> Call to a member function getError() on null
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-24 00:06:15 --> substr() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'substr() expect...', 'C:\\xampp\\htdocs...', 221, Array)
+#1 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(221): substr(Array, 0, -2)
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-24 03:10:33 --> Too few arguments to function App\Controllers\Hotel::pendataanadmin(), 0 passed in C:\xampp\htdocs\e-potensi\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataanadmin()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-24 21:14:04 --> Call to a member function getError() on null
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-24 22:11:58 --> Argument 1 passed to CodeIgniter\Validation\FormatRules::integer() must be of the type string or null, array given, called in C:\xampp\htdocs\e-potensi\system\Validation\Validation.php on line 306
+#0 C:\xampp\htdocs\e-potensi\system\Validation\Validation.php(306): CodeIgniter\Validation\FormatRules->integer(Array, NULL)
+#1 C:\xampp\htdocs\e-potensi\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('tarif_kamar', 'tarif_kamar', Array, Array, Array)
+#2 C:\xampp\htdocs\e-potensi\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(205): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-24 22:19:20 --> Argument 1 passed to CodeIgniter\Validation\FormatRules::integer() must be of the type string or null, array given, called in C:\xampp\htdocs\e-potensi\system\Validation\Validation.php on line 306
+#0 C:\xampp\htdocs\e-potensi\system\Validation\Validation.php(306): CodeIgniter\Validation\FormatRules->integer(Array, NULL)
+#1 C:\xampp\htdocs\e-potensi\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('tarif_kamar', 'tarif_kamar', Array, Array, Array)
+#2 C:\xampp\htdocs\e-potensi\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(205): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#5 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#6 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-24 22:20:42 --> Call to a member function getError() on null
+#0 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#1 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-24 22:21:29 --> substr() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'substr() expect...', 'C:\\xampp\\htdocs...', 270, Array)
+#1 C:\xampp\htdocs\e-potensi\app\Controllers\Hotel.php(270): substr(Array, 0, -2)
+#2 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(936): App\Controllers\Hotel->simpanpendataanadmin()
+#3 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#4 C:\xampp\htdocs\e-potensi\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-potensi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

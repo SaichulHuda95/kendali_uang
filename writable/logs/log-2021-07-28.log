@@ -1,0 +1,172 @@
+CRITICAL - 2021-07-28 00:29:36 --> Too few arguments to function App\Controllers\Hotel::detail(), 0 passed in C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->detail()
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#5 {main}
+CRITICAL - 2021-07-28 20:32:27 --> Undefined variable: npwpd
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Views\hotel\formpendataan.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 170, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(220): include('C:\\Users\\dbi\\Do...')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Common.php(1217): CodeIgniter\View\View->render('hotel/formpenda...', Array, true)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(157): view('hotel/formpenda...')
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan()
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#10 {main}
+CRITICAL - 2021-07-28 20:32:38 --> Undefined variable: npwpd
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Views\hotel\formpendataan.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 170, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(220): include('C:\\Users\\dbi\\Do...')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Common.php(1217): CodeIgniter\View\View->render('hotel/formpenda...', Array, true)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(157): view('hotel/formpenda...')
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan()
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#7 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#10 {main}
+ERROR - 2021-07-28 20:43:34 --> mysqli_sql_exception: Unknown column 'gambar' in 'field list' in C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pr...')
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Produk.php(173): CodeIgniter\Model->insert(Array)
+#8 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Produk->simpandata()
+#9 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#10 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#13 {main}
+CRITICAL - 2021-07-28 20:43:34 --> Unknown column 'gambar' in 'field list'
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pr...')
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Produk.php(173): CodeIgniter\Model->insert(Array)
+#8 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Produk->simpandata()
+#9 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#10 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#13 {main}
+ERROR - 2021-07-28 20:44:05 --> mysqli_sql_exception: Unknown column 'gambar' in 'field list' in C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pr...')
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Produk.php(173): CodeIgniter\Model->insert(Array)
+#8 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Produk->simpandata()
+#9 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#10 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#13 {main}
+CRITICAL - 2021-07-28 20:44:05 --> Unknown column 'gambar' in 'field list'
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pr...')
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Produk.php(173): CodeIgniter\Model->insert(Array)
+#8 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Produk->simpandata()
+#9 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#10 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#13 {main}
+CRITICAL - 2021-07-28 22:21:07 --> Undefined variable: idHotel
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 145, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('1')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-07-28 22:21:27 --> Undefined index: npwpd
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\dbi\\Do...', 148, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('1')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-07-28 22:21:28 --> Undefined index: npwpd
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\dbi\\Do...', 148, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('1')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-07-28 22:22:01 --> syntax error, unexpected '}'
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('hotel/index')
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('hotel/index')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-07-28 23:46:31 --> Undefined property: App\Controllers\Hotel::$load
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\dbi\\Do...', 145, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('84736fehd')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-07-28 23:46:57 --> Undefined property: App\Controllers\Hotel::$load
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\dbi\\Do...', 145, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('84736fehd')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-07-28 23:47:01 --> Undefined property: App\Controllers\Hotel::$load
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\dbi\\Do...', 145, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('84736fehd')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-07-28 23:49:28 --> Call to undefined method App\Controllers\Hotel::hotel()
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('1')
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#5 {main}
+CRITICAL - 2021-07-28 23:49:54 --> Undefined variable: npwpd
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dbi\\Do...', 146, Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('1')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
+CRITICAL - 2021-07-28 23:50:35 --> Call to undefined method App\Models\Modelhotel::pendataan
+#0 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\app\Controllers\Hotel.php(147): CodeIgniter\Model->__call('pendataan', Array)
+#1 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(936): App\Controllers\Hotel->pendataan('1')
+#2 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotel))
+#3 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\dbi\Downloads\Compressed\pointofsales ci4_2\pointofsales ci4\ci4-pos\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\dbi\\Do...')
+#6 {main}
