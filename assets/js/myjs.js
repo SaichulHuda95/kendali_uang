@@ -41,9 +41,6 @@ $(".datetime").flatpickr({
   dateFormat: "Y-m-d H:i",
 });
 
-//select 2
-$(".select2").select2();
-
 // numeric
 jQuery(function ($) {
   $("input.numeric").autoNumeric("init", {

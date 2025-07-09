@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="<?= base_url() ?>/assets/plugins/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css">
     <link rel="stylesheet" href="<?= base_url() ?>/assets/plugins/datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css">
     <link rel="stylesheet" href="<?= base_url() ?>/assets/plugins/flatpickr/dist/css/flatpickr.min.css">
-    <!-- <link rel="stylesheet" href="<?= base_url() ?>/assets/plugins/select2/dist/css/select2.min.css"> -->
     <link rel="stylesheet" href="<?= base_url() ?>/assets/css/mycss.css">
     <!-- jquery -->
     <script src="<?= base_url() ?>/assets/plugins/jquery/jquery.min.js"></script>
@@ -142,11 +141,8 @@
     <script src="<?= base_url() ?>/assets/plugins/datatables.net-buttons/js/buttons.colVis.min.js"></script>
     <script src="<?= base_url() ?>/assets/plugins/datatables.net-buttons/js/buttons.html5.min.js"></script>
     <script src="<?= base_url() ?>/assets/plugins/datatables.net-buttons/js/buttons.print.min.js"></script>
-    <!-- <script src="<?= base_url() ?>/assets/plugins/pdfmake/build/pdfmake.min.js"></script>
-    <script src="<?= base_url() ?>/assets/plugins/pdfmake/build/vfs_fonts.js"></script> -->
     <script src="<?= base_url() ?>/assets/plugins/jszip/dist/jszip.min.js"></script>
     <script src="<?= base_url() ?>/assets/plugins/flatpickr/dist/js/flatpickr.min.js"></script>
-    <!-- <script src="<?= base_url() ?>/assets/plugins/select2/dist/js/select2.min.js"></script> -->
     <script src="<?= base_url() ?>/assets/plugins/autoNumeric/autoNumeric-2.0.js"></script>
     <script src="<?= base_url() ?>/assets/plugins/chart.js/dist/chart.min.js"></script>
     <script>
