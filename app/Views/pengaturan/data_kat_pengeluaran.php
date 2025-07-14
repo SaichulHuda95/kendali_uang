@@ -15,7 +15,7 @@
 
 <div class="row">
     <div class="col-md-6">
-        <div class="card card-glass">
+        <div class="card card-glass shadow-sm">
             <div class="card-body">
                 <div class="row mb-3">
                     <div class="col">

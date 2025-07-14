@@ -92,7 +92,7 @@
                     response.data.forEach(function(item) {
                         html += `
                         <div class="col-md-4 mb-4">
-                            <div class="card card-glass p-3 shadow">
+                            <div class="card card-glass p-3 shadow-sm">
                                 <div class="d-flex justify-content-between align-items-center mb-2">
                                     <div>
                                         <h6 class="mb-1 text-uppercase text-muted">Saldo Rekening</h6>

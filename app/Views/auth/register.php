@@ -34,7 +34,7 @@
         <div class="container py-5 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-                    <div class="card card-glass" style="border-radius: 20px;">
+                    <div class="card card-glass shadow-sm" style="border-radius: 20px;">
                         <div class="card-body p-5 text-center">
 
                             <div class="mb-md-3 mt-md-4 pb-5">

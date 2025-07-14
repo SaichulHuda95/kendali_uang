@@ -9,7 +9,7 @@
 
 <div class="row">
     <div class="col">
-        <div class="card card-glass">
+        <div class="card card-glass shadow-sm">
             <div class="card-body">
                 <div class="row">
                     <div class="col">
